@@ -1,0 +1,135 @@
+<section id="main-content-wrapper">
+  <div class="bread-crumb my-3 pb-3 border-bottom">
+    <h3 class="d-inline-block">{{'menu.title' | translate}}</h3>
+    <div class="btn-group ml-2">
+      <button type="button" class="btn text-primary" title="{{'buttons.edit' | translate }}"
+        (click)="goBackToMyMenu()"><i class="fa fa-arrow-left" aria-hidden="true"></i> {{'buttons.goBack' | translate}}
+      </button>
+      <button type="button" class="btn text-danger" (click)="openCreateMenuModal(createMenuModalContent)"><i
+          class="fa fa-plus" aria-hidden="true"></i> {{'myMenu.createMenu' | translate}}
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <ng-container *ngFor="let category of menuCategory">
+      <div *ngIf="category.linkedMenuItems" class="col-md-4 card-deck">
+        <div class="card custom-card">
+          <h5 class="card-header menu-heading">{{category.menuCategoryName}}</h5>
+          <ul class="list-group list-group-flush px-3">
+            <li class="list-group-item" *ngFor="let item of category.linkedMenuItems">
+              <ng-container *ngIf="item.linked; else notLinkedWrap">
+                <i class="fa fa-minus mr-2" aria-hidden="true"
+                  (click)="removeItemFromCategory(category.menuCategoryId, item.menuItemId, category.userId)"></i>
+              </ng-container>
+              <ng-template #notLinkedWrap>
+                <i class="fa fa-plus mr-2" aria-hidden="true"
+                  (click)="addMenuItem(category.menuCategoryId, item.menuItemId, category.userId)"></i>
+              </ng-template>
+              <a [title]="item?.menuItemDesc" [href]="item?.menuItemContent" target="_blank">{{item?.menuItemName}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</section>
+
+
+<!-- Create Menu Modal -->
+<ng-template #createMenuModalContent let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">{{'myMenu.createMenu' | translate}}</h4>
+    <button type="button" class="btn close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="form-group">
+      <div class="row">
+        <form [formGroup]="menuForm" class="col-md-12">
+          <div class="form-group mb-2">
+            <label class="control-label">{{'myMenu.menuItemName' | translate}}</label>
+            <input type="text" placeholder="{{'myMenu.menuItemNameLabel' | translate}}" class="form-control"
+              formControlName="menuItemName" autofocus />
+            <div *ngIf="menuF.menuItemName.touched && menuF.menuItemName.errors" class="alert alert-danger">
+              <div *ngIf="menuF.menuItemName.errors.required">
+                {{'myMenu.err_msg.menuItemName_errRequired' | translate}}
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group mb-2">
+            <label class="control-label">{{'myMenu.menuItemContent' | translate}}</label>
+            <input type="text" placeholder="{{'myMenu.menuItemContentLabel' | translate}}" class="form-control"
+              formControlName="menuItemContent" />
+            <div *ngIf="menuF.menuItemContent.touched && menuF.menuItemContent.errors" class="alert alert-danger">
+              <div *ngIf="menuF.menuItemContent.errors.required">
+                {{'myMenu.err_msg.menuItemContent_errRequired' | translate}}
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group mb-2">
+            <label class="control-label">{{'myMenu.menuItemDesc' | translate}}</label>
+            <input type="text" placeholder="{{'myMenu.menuItemDescLabel' | translate}}" class="form-control"
+              formControlName="menuItemDesc" />
+          </div>
+
+          <ng-container *ngIf="ownedCategory.length ; else createFirstCategory ">
+            <div class=" form-group">
+              <label class="control-label">{{'myMenu.addToCategory' | translate}}</label>
+              <button class="btn btn-sm float-right" title="{{'buttons.addNew' | translate}}" type="button"
+                (click)="addNewCategory(createMenuCatModalContent)"><i class="fa fa-plus"></i></button>
+              <app-multi-select-dropdown [multiDropdownList]="ownedCategory" (addDataByKey)="addMenuCategory($event)"
+                (removeDataByKey)="removeMenuCategory($event)" (selectAllData)="addAllMenuCategory($event)"
+                [multiSelect]="true">
+              </app-multi-select-dropdown>
+            </div>
+          </ng-container>
+          <ng-template #createFirstCategory>
+            <button class="btn btn-danger float-right" title="{{'buttons.addNew' | translate}}" type="button"
+              (click)="addNewCategory(createMenuCatModalContent)"><i
+                class="fa fa-plus"></i>{{'myMenu.addCategory' | translate}}</button>
+          </ng-template>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button [disabled]="menuForm.invalid" type="submit" class="btn btn-danger w-25"
+      (click)="createMenu()">{{'buttons.create' | translate}}</button>
+    <!-- <button type="button" class="btn btn-secondary" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      {{'buttons.cancel' | translate}}
+    </button> -->
+  </div>
+</ng-template>
+
+
+<!-- Create Menu Category Modal -->
+<ng-template #createMenuCatModalContent let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">{{'myMenu.createCat' | translate}}</h4>
+    <button type="button" class="btn close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="form-group">
+      <div class="row">
+        <div class="col-md-12 mb-3">
+          <label class="control-label">{{'myMenu.categoryName' | translate}}</label>
+          <input type="text" [formControl]="menuCatName" class="form-control"
+            placeholder="{{'myMenu.categoryNameLabel' | translate}}" autofocus />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <!-- <button type="button" class="btn btn-secondary" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      {{'buttons.cancel' | translate}}
+    </button> -->
+    <button [disabled]="menuCatName.invalid" type="button" class="btn btn-danger w-25"
+      (click)="createMenuCategory()">{{'buttons.create' | translate}}</button>
+  </div>
+</ng-template>

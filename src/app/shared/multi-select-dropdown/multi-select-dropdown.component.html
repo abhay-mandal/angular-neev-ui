@@ -1,0 +1,14 @@
+<ng-multiselect-dropdown *ngIf="multiSelect" [placeholder]="'Select item'" [data]="multiDropdownList"
+  [(ngModel)]="multiSelectedItems" [settings]="multiDropdownSettings" (onSelect)="onItemSelect($event)"
+  (onSelectAll)="onSelectAll($event)" (onDeSelect)="onItemDeSelect($event)" (onDeSelectAll)="onDeSelectAll($event)">
+</ng-multiselect-dropdown>
+
+<!-- <ng-multiselect-dropdown *ngIf="singleSelect"
+  [placeholder]="'Select'"
+  [data]="singleDropdownList"
+  [(ngModel)]="singleSelectedItem"
+  [settings]="singleDropdownSettings"
+  (onSelect)="onItemSelect($event)"
+  (onDeSelect)="onItemDeSelect($event)"
+> 
+</ng-multiselect-dropdown> -->

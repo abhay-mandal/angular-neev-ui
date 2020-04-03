@@ -1,0 +1,61 @@
+<section id="main-content-wrapper">
+  <div class="bread-crumb my-3 pb-3 border-bottom">
+    <h3>{{'createCard.title' | translate}}</h3>
+  </div>
+  <form [formGroup]="createCardForm" (ngSubmit)="createCard()">
+    <div class="form-group row">
+        <div class="form-group col-md-6">
+          <label class="form-label d-block">{{'createCard.labels.cardNameLabel' | translate}}:</label>
+          <input type="text" formControlName="cardName" class="form-control" id="cardName"
+            placeholder="{{'createCard.labels.cardNameLabel' | translate}}" autocomplete>
+          <div *ngIf="form['cardName'].touched && form['cardName'].errors" class="alert alert-danger">
+            <div *ngIf="form['cardName'].errors && form['cardName'].errors.required">
+              {{'createCard.errorMessage.cardNameEmptyError' | translate}}
+            </div>
+            <div *ngIf="form['cardName'].errors && form['cardName'].errors.alphaNumeric">
+                {{'createCard.errorMessage.cardNameInvalid' | translate}}
+            </div>
+            <div *ngIf="form['cardName'].errors && !form['cardName'].errors.required && form['cardName'].errors.minlength">
+                {{'createCard.errorMessage.cardNameLengthError' | translate}}
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label class="form-label d-block">
+              {{'createCard.labels.cardDescLabel' | translate}}:</label>
+          <input type="text" formControlName="cardDesc" class="form-control" id="cardDesc"
+            placeholder="{{'createCard.labels.cardDescLabel' | translate}}">
+            <div *ngIf="form['cardDesc'].touched && form['cardDesc'].errors" class="alert alert-danger">
+              <div *ngIf="form['cardDesc'].errors && form['cardDesc'].errors.required">
+                {{'createCard.errorMessage.cardDescEmptyError' | translate}}
+              </div>
+              <div *ngIf="form['cardDesc'].errors && !form['cardDesc'].errors.required && form['cardDesc'].errors.minlength">
+                {{'createCard.errorMessage.cardDescLengthError' | translate}}
+              </div>
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label class="form-label d-block">{{'createCard.labels.cardRenderTypeLabel' | translate}}:</label>
+          <select formControlName="renderType" class="browser-default custom-select">
+            <option *ngFor="let type of RENDER_TYPES" [value]="type.value">{{type.text}}</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">
+          <label class="form-label d-block">{{'createCard.labels.cardContentLabel' | translate}}:</label>
+          <textarea formControlName="cardContent" rows="1" class="form-control" id="cardContent" placeholder="{{'createCard.labels.cardContentLabel' | translate}}"></textarea>
+          <div *ngIf="form['cardContent'].touched && form['cardContent'].errors" class="alert alert-danger">
+            <div
+              *ngIf="form['cardContent'].errors && form['cardContent'].errors.required">
+              {{'createCard.errorMessage.cardDescEmptyError' | translate}}
+            </div>
+          </div>
+        </div>
+
+        <div class="col offset-md-10 mt-2">
+          <button [disabled]="!createCardForm.valid" type="submit" class=" btn btn-danger mr-2">{{'buttons.create' | translate}}</button>
+          <button type="button" (click)="resetForm()" class=" btn btn-secondary">{{'buttons.clear' | translate}}</button>
+        </div>
+        <p class="col small danger"><strong>Note: </strong>Once card created, you can edit and set background image</p>
+    </div>
+  </form>
+</section>

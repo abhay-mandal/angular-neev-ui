@@ -1,0 +1,84 @@
+#navBar > ul {
+  flex: 1;
+  justify-content: flex-end;
+}
+.navbar-dark{
+  background-color: #142238;
+}
+
+.header-fa-sliders {
+  color: #109bb0;
+}
+.avtarImg {
+  border-radius: 50% 50% 50% 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.help-label {
+  font-size: 20px;
+  letter-spacing: 1.44px;
+  color: #7a7a7a;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.help-header svg {
+  width: 26px;
+}
+
+.help-header {
+  margin-top: 13px;
+  margin-right: 12px;
+}
+
+.line-sepration {
+  border-right: 1px solid #80808038;
+  margin-top: 20px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+  //avatar
+  ::ng-deep .avatar-container {
+    margin-right: -8px;
+  }
+
+  .fa-bell{
+    font-size: 24px;
+    color: #3889c8;
+  }
+
+  .notification-item{
+    white-space : inherit !important;
+    width: 400px;
+  }
+
+  span.notification-item.dropdown-item{
+    border-bottom:1px solid #ECECEC;
+    transition: all 0.5s ease;
+    padding: 0.75rem 1.5rem;
+  }
+  span.notification-item.dropdown-item:hover{
+    color:#fff;
+    background:#142238;
+  }
+  .navbar-nav .dropdown-menu{
+    padding:0;
+  }
+
+  .notification-count{
+    color: #fff;
+    background: #ec222b;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    padding: 0 0 17px 0;
+    font-weight: 600;
+    left: 20px;
+    top: 8px;
+  }

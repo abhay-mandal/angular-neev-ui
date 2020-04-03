@@ -1,0 +1,42 @@
+<section id="main-content-wrapper">
+  <div class="bread-crumb my-3 pb-3 border-bottom">
+    <h3>{{'createPage.title' | translate}}</h3>
+  </div>
+  <form [formGroup]="createPageForm" (ngSubmit)="createPage()">
+    <div class="form-group row">
+      <div class="form-group col-md-6">
+        <label class="form-label d-block">{{'createPage.labels.pageNameLabel' | translate}}:</label>
+        <input type="text" formControlName="pageName" class="form-control" id="pageName"
+          placeholder="{{'createPage.labels.pageNameLabel' | translate}}" autocomplete>
+        <div *ngIf="form['pageName'].touched && form['pageName'].errors" class="alert alert-danger">
+          <div *ngIf="form['pageName'].errors && form['pageName'].errors.required">
+            {{'createPage.errorMessage.pageNameEmptyError' | translate}}
+          </div>
+          <div *ngIf="form['pageName'].errors && form['pageName'].errors.alphaNumeric">
+            {{'createPage.errorMessage.pageNameInvalid' | translate}}
+          </div>
+          <div
+            *ngIf="form['pageName'].errors && !form['pageName'].errors.required && form['pageName'].errors.minlength">
+            {{'createPage.errorMessage.pageNameLengthError' | translate}}
+          </div>
+        </div>
+      </div>
+      <div class="form-group col-md-6">
+        <label class="form-label d-block">
+          {{'createPage.labels.pageDescLabel' | translate}}:</label>
+        <input type="text" formControlName="pageDesc" class="form-control" id="pageDesc"
+          placeholder="{{'createPage.labels.pageDescLabel' | translate}}">
+        <div *ngIf="form['pageDesc'].touched && form['pageDesc'].errors" class="alert alert-danger">
+          <div *ngIf="form['pageDesc'].errors && form['pageDesc'].errors.required">
+            {{'createPage.errorMessage.pageDescEmptyError' | translate}}
+          </div>
+        </div>
+      </div>
+      <div class="col offset-md-10 mt-2">
+        <button [disabled]="!createPageForm.valid" type="submit"
+          class=" btn btn-danger mr-2">{{'buttons.create' | translate}}</button>
+        <button type="button" (click)="resetForm()" class=" btn btn-secondary">{{'buttons.clear' | translate}}</button>
+      </div>
+    </div>
+  </form>
+</section>

@@ -1,0 +1,17 @@
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    cursor: pointer;
+}
+.inputfile:focus + .inputfilelabel {
+    background-color:#2fc5f4;
+    border: 1px solid #e0e7ff;
+    color: #ffff !important;
+}

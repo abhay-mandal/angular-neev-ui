@@ -1,0 +1,30 @@
+.catalog{
+    position: fixed;
+    width: 325px;
+}
+.catalog .card-header{
+    margin-top: 10px;
+    background-color: #142238;
+}
+.catalog-group{
+    height: calc(100vh - 180px);
+    width: 99.7%;
+    overflow: auto;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 4px 6px rgba(0,0,0,.2);
+}
+
+.catalog-group .list-group-item{
+    color: #555;
+    border-color: #f3f3f3;
+    font-size: 15px;
+    font-weight: bold;
+}
+.pin-btn {
+    top : 8px;
+    right: 15px;
+    display: none;
+}
+
+.catalog-group .list-group-item:hover .pin-btn {
+    display: block;
+}

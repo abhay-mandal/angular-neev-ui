@@ -1,0 +1,57 @@
+<form [formGroup]="signUpForm" (ngSubmit)="signUp()">
+  <fieldset class="clearfix">
+    <div class="form-group mb-4"><span class="fa fa-envelope"></span><input type="text" Placeholder="Email"
+        class="form-control username" formControlName="email" autocomplete="new-email" tabindex="1">
+      <div *ngIf="signUpForm.controls['email'].touched" class="alert alert-danger">
+        <div *ngIf="signUpForm.controls['email'].errors && signUpForm.controls['email'].errors.required">
+          {{'sign_up.messages.email_error' | translate}}
+        </div>
+        <div *ngIf="signUpForm.controls['email'].errors && signUpForm.controls['email'].errors.email">
+          {{'sign_up.messages.invalid_email_error' | translate}}
+        </div>
+      </div>
+    </div>
+    <div class="form-group mb-4"><span class="fa fa-user"></span><input type="text" Placeholder="Name"
+        class="form-control username" formControlName="name" autocomplete="" tabindex="1">
+      <div *ngIf="signUpForm.controls['name'].touched" class="alert alert-danger">
+        <div *ngIf="signUpForm.controls['name'].errors && signUpForm.controls['name'].errors.required">
+          {{'sign_up.messages.name_error' | translate}}
+        </div>
+        <div *ngIf="signUpForm.controls['name'].errors && signUpForm.controls['name'].errors.alphabet">
+          {{'sign_up.messages.alphabet_error' | translate}}
+        </div>
+      </div>
+    </div>
+    <!-- JS because of IE support; better: placeholder="Username" -->
+    <div class="form-group mb-4"><span class="fa fa-lock"></span><input
+        (keyup)="checkPaswordStrength(signUpForm.controls['password'].value)" class="form-control password"
+        type="password" Placeholder="Password" formControlName="password" autocomplete="new-password" tabindex="2">
+      <div class="strength-circles">
+        <div class="round strong-circle-position"
+          [ngClass]="passwordStrengthColor == passwordStrengthColorSet.STRONG_PASSWORD_COLOR ? 'bg-green' : ''"
+          data-toggle="tooltip" data-placement="right" title="Strong"></div>
+        <div class="round medium-circle-postion"
+          [ngClass]="passwordStrengthColor == passwordStrengthColorSet.MEDIUM_PASSWORD_COLOR ? 'bg-orange' : (passwordStrengthColor == passwordStrengthColorSet.STRONG_PASSWORD_COLOR ? 'bg-green' : '')"
+          data-toggle="tooltip" data-placement="right" title="Medium"></div>
+        <div class="round weak-circle-position"
+          [ngClass]="passwordStrengthColor == passwordStrengthColorSet.WEAK_PASSWORD_COLOR ? 'bg-red' : (passwordStrengthColor == passwordStrengthColorSet.MEDIUM_PASSWORD_COLOR ? 'bg-orange' : (passwordStrengthColor == passwordStrengthColorSet.STRONG_PASSWORD_COLOR ? 'bg-green' : ''))"
+          data-toggle="tooltip" data-placement="right" title="Weak"></div>
+      </div>
+      <div *ngIf="signUpForm.controls['password'].touched" class="alert alert-danger">
+        <div *ngIf="signUpForm.controls['password'].errors && signUpForm.controls['password'].errors.required">
+          {{'sign_up.messages.password_error' | translate}}
+        </div>
+        <div
+          *ngIf="signUpForm.controls['password'].errors && !signUpForm.controls['password'].errors.required && signUpForm.controls['password'].errors.minlength">
+          {{'common_ui_message.min_password_length_error' | translate}}
+        </div>
+      </div>
+    </div>
+    <div class="signin-text">
+      <span style="width:100%; text-align:right;  display: inline-block;margin-bottom:10px ;"><button
+          class="btn btn-md submit" [disabled]="!signUpForm.valid" type="submit" tabindex="4">Sign Up</button></span>
+      <span style="text-align:left;  display: inline-block;">Already have an account? <a class="small-text"
+          href="javascript:void(0)" routerLink="/signin"> Sign In</a></span>
+    </div>
+  </fieldset>
+</form>

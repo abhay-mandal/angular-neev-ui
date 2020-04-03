@@ -1,0 +1,29 @@
+<section id="main-content-wrapper">
+  <div class="bread-crumb my-3 pb-3 border-bottom">
+    <h3 class="d-inline-block">{{'myMenu.title' | translate}}</h3>
+    <div class="btn-group">
+      <button type="button" class="btn text-primary edit-menu ml-2" (click)="editMyMenu()"><i class="fa fa-pencil"
+          aria-hidden="true"></i> {{'myMenu.editMenu' | translate }}
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <ng-container *ngFor="let category of menuCategory">
+      <div *ngIf="category.linkedMenuItems" class="col-md-4 card-deck">
+        <div class="card custom-card">
+          <h5 class="card-header menu-heading">{{category.menuCategoryName}}</h5>
+          <ul class="list-group list-group-flush px-3">
+            <li class="list-group-item" *ngFor="let item of category.linkedMenuItems">
+              <i class="fa fa-caret-right mr-2" aria-hidden="true"></i>
+              <a [href]="item?.menuItemContent" [title]="item?.menuItemDesc" target="_blank">{{item?.menuItemName}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+
+  <div *ngIf="(menuCategory)?.length === 0">
+    <h4 class="text-center bg-warning p-2">{{'myMenu.noData' | translate}}, <a href="javascript:void(0)" class="text-underline" (click)="editMyMenu()">Click here</a> {{'myMenu.toEditMenu' | translate}}!</h4>
+  </div>
+</section>

@@ -1,0 +1,68 @@
+<section id="main-content-wrapper" *ngIf="pageDetails.pageId">
+  <div class="bread-crumb my-3 pb-3 border-bottom">
+    <h3 class="d-inline-block">{{pageDetails.pageName}}</h3>
+    <div class="btn-group">
+      <button type="button" class="btn text-primary ml-2" (click)="openClonePageModal(clonePageNameModalContent)"><i
+          class="fa fa-clone" aria-hidden="true" title="{{'pageContainer.clonePage' | translate}}"></i></button>
+      <button type="button" class="btn text-primary" (click)="openSharePageModal(sharePageNameModalContent)"><i
+          class="fa fa-share" aria-hidden="true" title="{{'pageContainer.sharePage' | translate}}"></i></button>
+      <button type="button" class="btn text-primary" routerLink="/create-page"><i class="fa fa-plus" aria-hidden="true"
+          title="{{'pageContainer.createPage' | translate}}"></i></button>
+    </div>
+    <div class="btn-group float-right">
+      <button *ngIf="pageDetails.pageId != DEFAULT_PAGE_ID && !readOnly" type="button" class="btn text-danger"
+        title="Delete Page" (click)="deletePage()"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+    </div>
+  </div>
+  <app-card-container *ngIf="cards.length" [cards]="cards" (unPinCardFromPage)="unPinCardFromPage($event)"
+    [readOnly]="readOnly" (updateCard)="updateCardModal($event)" (rateCardFromPage)=rateCardFromPage($event)>
+  </app-card-container>
+</section>
+
+<ng-template #clonePageNameModalContent let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">{{'pageContainer.clonePage' | translate}}</h4>
+  </div>
+  <div class="modal-body">
+    <div class="form-group">
+      <label class="control-label">{{'pageContainer.pageName' | translate}}</label>
+      <input type="text" [formControl]="pageName" class="form-control"
+        placeholder="{{'pageContainer.pageNamePlaceHolder' | translate}}" autofocus />
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      {{'buttons.cancel' | translate}}
+    </button>
+    <button type="button" class="btn btn-danger w-25"
+      (click)="clonePage()">{{'pageContainer.clone' | translate}}</button>
+  </div>
+</ng-template>
+
+<ng-template #sharePageNameModalContent let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">{{'pageContainer.sharePage' | translate}}</h4>
+  </div>
+  <div class="modal-body">
+    <div class="form-group">
+      <label class="control-label">{{'pageContainer.userId' | translate}}</label>
+      <input type="text" [formControl]="shareUserId" class="form-control"
+        placeholder="{{'pageContainer.userIdPlaceHolder' | translate}}" autofocus />
+      <div *ngIf="shareUserId.touched && shareUserId.errors" class="alert alert-danger">
+        <div class="username-error" *ngIf="shareUserId.errors.required">
+          {{'login.err_msg.email_err_required' | translate}}
+        </div>
+        <!-- <div *ngIf="shareUserId.errors.email">
+          {{'login.err_msg.email_err' | translate}}
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      {{'buttons.cancel' | translate}}
+    </button>
+    <button type="button" [disabled]="!shareUserId.valid" class="btn btn-danger w-25"
+      (click)="sharePage()">{{'buttons.share' | translate}}</button>
+  </div>
+</ng-template>

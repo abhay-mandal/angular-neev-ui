@@ -1,0 +1,19 @@
+<form [formGroup]="uploadForm" novalidate (ngSubmit)="onUploadImg()" class="position-relative">
+  <div class="row">
+    <div class="col-md-9">
+        <input type="file" accept="image/png, image/jpeg" (change)="onUploadImgFile($event)" class="form-control inputfile" id="uploadFile" name="uploadFile" />
+        <label class="form-control inputfilelabel"
+        [innerHTML]="fileName.length ? fileName : 'Upload Image'" name="uploadFile" for="uploadFile">
+        </label>
+    </div>
+    <div class="col-md-3">
+        <button class="btn btn-primary" type="submit" [disabled]="uploadForm.invalid">Upload</button>
+    </div>
+  </div>
+  <div class="progress mt-2" *ngIf="uploadResponse.uploadStatus === 'progress'">
+    <div class="progress-bar" role="progressbar" [style.width.%]="uploadResponse.message" aria-valuemin="0"
+      aria-valuemax="100">
+      {{uploadResponse.message}}%
+    </div>
+  </div>
+</form>

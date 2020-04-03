@@ -1,0 +1,732 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 332.95 324.51">
+  <defs>
+    <clipPath id="a" transform="translate(18.53 30.35)">
+      <rect width="312.24" height="289.49" style="fill: none"/>
+    </clipPath>
+    <clipPath id="c" transform="translate(18.53 30.35)">
+      <rect x="49.37" y="169.24" width="107.43" height="62.02" style="fill: none"/>
+    </clipPath>
+    <clipPath id="d" transform="translate(18.53 30.35)">
+      <path d="M97.71,236.94,39,203a3.11,3.11,0,0,1-1.83-2.57c0-1.22,1-2.5,2.7-3.49l57-32.9c3.45-2,8.67-2.21,11.63-.5l58.74,33.91a3.09,3.09,0,0,1,1.82,2.57c0,1.22-1,2.5-2.7,3.49l-57,32.9a13.63,13.63,0,0,1-6.62,1.65,10.25,10.25,0,0,1-5-1.15m-1.44-73.85-57,32.9c-2.08,1.2-3.27,2.83-3.27,4.47A4.18,4.18,0,0,0,38.41,204l58.74,33.91a11.35,11.35,0,0,0,5.57,1.28,14.65,14.65,0,0,0,7.18-1.79l57-32.89c2.08-1.2,3.27-2.83,3.27-4.47a4.18,4.18,0,0,0-2.39-3.55L109,162.59a11.39,11.39,0,0,0-5.58-1.28,14.78,14.78,0,0,0-7.18,1.78" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="e" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(134.13, 0, 0, -134.13, 54.55, 39060.15)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcc29f"/>
+      <stop offset="0.3" stop-color="#fbb69c"/>
+      <stop offset="0.85" stop-color="#f99595"/>
+      <stop offset="1" stop-color="#f88b93"/>
+    </linearGradient>
+    <clipPath id="f" transform="translate(18.53 30.35)">
+      <path d="M38.37,179.44l59,34.08c3.14,1.81,8.63,1.58,12.25-.51L166.92,180c3.63-2.1,4-5.26.88-7.08l-59,29.53c-3.14-1.81-8.62-1.59-12.25.51L39.25,172.36c-3.62,2.1-4,5.26-.88,7.08" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="g" y1="289.4" x2="1" y2="289.4" gradientTransform="matrix(135.44, 38.96, 67.49, -78.2, -19488.75, 22832.26)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f2482"/>
+      <stop offset="1" stop-color="#812c85"/>
+    </linearGradient>
+    <clipPath id="h" transform="translate(18.53 30.35)">
+      <path d="M103.09,161.67v53.05a14,14,0,0,0,6.56-1.71L166.92,180c1.88-1.09,2.89-2.47,3-3.79h0V161.67Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="i" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(0, -84.32, -84.32, 0, 24545.56, 218.29)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcba9d"/>
+      <stop offset="0.59" stop-color="#ed8293"/>
+      <stop offset="1" stop-color="#e4608d"/>
+    </linearGradient>
+    <clipPath id="k" transform="translate(18.53 30.35)">
+      <rect x="103.09" y="161.67" width="66.83" height="53.06" style="fill: none"/>
+    </clipPath>
+    <clipPath id="l" transform="translate(18.53 30.35)">
+      <path d="M36.25,161.67v14.49h0a3.56,3.56,0,0,0,2.1,3.28l59,34.08a11,11,0,0,0,5.69,1.2V161.67Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="m" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 130.79, 130.79, 0, -37778.68, 98.31)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f2482"/>
+      <stop offset="1" stop-color="#ab3588"/>
+    </linearGradient>
+    <clipPath id="n" transform="translate(18.53 30.35)">
+      <path d="M96.52,124.82,39.25,157.88c-3.62,2.09-4,5.26-.88,7.07L97.4,199c3.14,1.81,8.63,1.59,12.25-.51l57.27-33.06c3.63-2.09,4-5.26.88-7.07l-59-34.08a10.84,10.84,0,0,0-5.32-1.23,14.17,14.17,0,0,0-6.93,1.74" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="o" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(135.44, 38.96, 67.49, -78.2, -19482.75, 22810.82)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#451368"/>
+      <stop offset="1" stop-color="#812c85"/>
+    </linearGradient>
+    <clipPath id="q" transform="translate(18.53 30.35)">
+      <path d="M98.35,134.58,57.08,158.41c-2.62,1.51-2.9,3.79-.64,5.1L99,188.07c2.26,1.31,6.22,1.15,8.83-.36l41.28-23.84c2.61-1.5,2.89-3.79.63-5.09l-42.54-24.57a7.87,7.87,0,0,0-3.84-.88,10.22,10.22,0,0,0-5,1.25" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="r" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(97.63, 28.09, 48.64, -56.37, -14009.1, 16494.99)" xlink:href="#g"/>
+    <clipPath id="s" transform="translate(18.53 30.35)">
+      <path d="M103.09,150v39a10.23,10.23,0,0,0,4.73-1.23l41.28-23.84a3.73,3.73,0,0,0,2.15-2.73h0V150Zm0,0v0Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="t" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(0, 82.68, 82.68, 0, -23813.09, 124.85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c5468f"/>
+      <stop offset="1" stop-color="#f88b93"/>
+    </linearGradient>
+    <clipPath id="u" transform="translate(18.53 30.35)">
+      <path d="M54.91,150v11.17h0a2.57,2.57,0,0,0,1.52,2.37L99,188.07a8,8,0,0,0,4.1.87V150Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="v" x1="0" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 94.78, 94.78, 0, -27347.65, 104.32)" xlink:href="#m"/>
+    <clipPath id="w" transform="translate(18.53 30.35)">
+      <path d="M98.35,123.41,57.08,147.24c-2.62,1.51-2.9,3.79-.64,5.1L99,176.9c2.26,1.31,6.22,1.14,8.83-.37L149.1,152.7c2.61-1.51,2.89-3.79.63-5.1L107.19,123a7.87,7.87,0,0,0-3.84-.88,10.22,10.22,0,0,0-5,1.25" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="x" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(97.63, 28.09, 48.64, -56.37, -14009.1, 16483.82)" xlink:href="#g"/>
+    <clipPath id="z" transform="translate(18.53 30.35)">
+      <path d="M99.93,132.25l-27.54,15.9c-1.74,1-1.93,2.53-.42,3.4l28.38,16.39a6.56,6.56,0,0,0,5.9-.25l27.53-15.9c1.74-1,1.93-2.53.42-3.4L105.82,132a5.15,5.15,0,0,0-2.56-.59,6.83,6.83,0,0,0-3.33.83" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="aa" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(65.13, 18.74, 32.45, -37.6, -9304.84, 11056.22)" xlink:href="#g"/>
+    <clipPath id="ab" transform="translate(18.53 30.35)">
+      <path d="M99.93,132.25l-27.54,15.9c-1.74,1-1.93,2.53-.42,3.4l5.28,3,22.68-13.09a6.54,6.54,0,0,1,5.89-.25l23.1,13.34,4.86-2.81c1.74-1,1.93-2.53.42-3.4L105.82,132a5.15,5.15,0,0,0-2.56-.59,6.83,6.83,0,0,0-3.33.83" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ac" x1="0" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(76.33, 0, 0, -76.33, 62.68, 22243.59)" xlink:href="#m"/>
+    <clipPath id="ad" transform="translate(18.53 30.35)">
+      <path d="M99.93,132.25l-27.54,15.9c-1.74,1-1.93,2.53-.42,3.4l5.28,3,22.68-13.09a6.84,6.84,0,0,1,3.16-.83v-9.25a6.72,6.72,0,0,0-3.16.82" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ae" x1="0" y1="289.51" x2="1" y2="289.51" gradientTransform="matrix(45.52, 0, 0, -45.52, 64.91, 13320.3)" xlink:href="#t"/>
+    <clipPath id="af" transform="translate(18.53 30.35)">
+      <path d="M38.37,148.9,97.4,183c3.14,1.81,8.63,1.58,12.25-.51l57.27-33.06c3.63-2.1,4-5.26.88-7.08l-59,29.53c-3.14-1.81-8.62-1.59-12.25.51L39.25,141.82c-3.62,2.1-4,5.27-.88,7.08" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ag" x1="0" y1="289.4" x2="1" y2="289.4" gradientTransform="matrix(135.44, 38.96, 67.49, -78.2, -19488.75, 22801.72)" xlink:href="#g"/>
+    <clipPath id="ah" transform="translate(18.53 30.35)">
+      <path d="M103.09,131.13v53.06a14.1,14.1,0,0,0,6.56-1.72l57.27-33.06c1.88-1.09,2.89-2.47,3-3.79h0V131.13Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ai" x1="0" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(0, -84.32, -84.32, 0, 24545.57, 187.75)" xlink:href="#i"/>
+    <clipPath id="ak" transform="translate(18.53 30.35)">
+      <rect x="103.09" y="131.13" width="66.83" height="53.06" style="fill: none"/>
+    </clipPath>
+    <clipPath id="al" transform="translate(18.53 30.35)">
+      <path d="M36.25,131.13v14.49h0a3.56,3.56,0,0,0,2.1,3.28L97.4,183a11.13,11.13,0,0,0,5.69,1.21V131.13Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="am" x1="0" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 130.79, 130.79, 0, -37778.68, 67.77)" xlink:href="#m"/>
+    <clipPath id="an" transform="translate(18.53 30.35)">
+      <path d="M96.52,94.28,39.25,127.34c-3.62,2.09-4,5.26-.88,7.07l59,34.08c3.14,1.81,8.63,1.59,12.25-.51l57.27-33.06c3.63-2.09,4-5.26.88-7.07l-59-34.08a10.86,10.86,0,0,0-5.32-1.23,14.17,14.17,0,0,0-6.93,1.74" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ao" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(135.44, 38.96, 67.49, -78.2, -19482.75, 22780.28)" xlink:href="#o"/>
+    <clipPath id="aq" transform="translate(18.53 30.35)">
+      <path d="M98.35,104,57.08,127.87c-2.62,1.51-2.9,3.79-.64,5.1L99,157.53c2.26,1.31,6.22,1.15,8.83-.36l41.28-23.83c2.61-1.51,2.89-3.8.63-5.1l-42.54-24.57a7.87,7.87,0,0,0-3.84-.88,10.22,10.22,0,0,0-5,1.25" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ar" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(97.63, 28.09, 48.64, -56.37, -14009.1, 16464.46)" xlink:href="#g"/>
+    <clipPath id="as" transform="translate(18.53 30.35)">
+      <path d="M103.09,119.43v39a10.23,10.23,0,0,0,4.73-1.23l41.28-23.83a3.76,3.76,0,0,0,2.15-2.74h0V119.43Zm0,0v0Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="at" x1="0" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(0, 82.68, 82.68, 0, -23813.09, 94.32)" xlink:href="#t"/>
+    <clipPath id="au" transform="translate(18.53 30.35)">
+      <path d="M54.91,119.43V130.6h0A2.57,2.57,0,0,0,56.44,133L99,157.53a8,8,0,0,0,4.1.87v-39Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="av" x1="0" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 94.78, 94.78, 0, -27347.65, 73.78)" xlink:href="#m"/>
+    <clipPath id="aw" transform="translate(18.53 30.35)">
+      <path d="M98.35,92.87,57.08,116.7c-2.62,1.51-2.9,3.79-.64,5.1L99,146.36c2.26,1.31,6.22,1.14,8.83-.36l41.28-23.84c2.61-1.51,2.89-3.79.63-5.09L107.19,92.5a7.87,7.87,0,0,0-3.84-.88,10.22,10.22,0,0,0-5,1.25" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ax" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(97.63, 28.09, 48.64, -56.37, -14009.1, 16453.28)" xlink:href="#g"/>
+    <clipPath id="az" transform="translate(18.53 30.35)">
+      <path d="M99.93,101.71l-27.54,15.9c-1.74,1-1.93,2.53-.42,3.4l28.38,16.39a6.56,6.56,0,0,0,5.9-.25l27.53-15.89c1.74-1,1.93-2.53.42-3.41l-28.38-16.38a5.15,5.15,0,0,0-2.56-.59,6.83,6.83,0,0,0-3.33.83" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ba" x1="0" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(65.13, 18.74, 32.45, -37.6, -9304.84, 11025.68)" xlink:href="#g"/>
+    <clipPath id="bb" transform="translate(18.53 30.35)">
+      <path d="M99.93,101.71l-27.54,15.9c-1.74,1-1.93,2.53-.42,3.4l5.28,3L99.93,111a6.51,6.51,0,0,1,5.89-.24l23.1,13.33,4.86-2.8c1.74-1,1.93-2.53.42-3.41l-28.38-16.38a5.15,5.15,0,0,0-2.56-.59,6.83,6.83,0,0,0-3.33.83" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="bc" x1="0" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(76.33, 0, 0, -76.33, 62.68, 22213.05)" xlink:href="#m"/>
+    <clipPath id="bd" transform="translate(18.53 30.35)">
+      <path d="M99.93,101.71l-27.54,15.9c-1.74,1-1.93,2.53-.42,3.4l5.28,3L99.93,111a6.84,6.84,0,0,1,3.16-.83v-9.25a6.72,6.72,0,0,0-3.16.82" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="be" x1="0" y1="289.51" x2="1" y2="289.51" gradientTransform="matrix(45.52, 0, 0, -45.52, 64.91, 13289.76)" xlink:href="#t"/>
+    <clipPath id="bf" transform="translate(18.53 30.35)">
+      <path d="M38.37,118.36l59,34.08c3.14,1.81,8.63,1.58,12.25-.51l57.27-33.06c3.63-2.1,4-5.26.88-7.08l-59,29.53c-3.14-1.81-8.62-1.59-12.25.51L39.25,111.28c-3.62,2.1-4,5.27-.88,7.08" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="bg" x1="0" y1="289.4" x2="1" y2="289.4" gradientTransform="matrix(135.44, 38.96, 67.49, -78.2, -19488.75, 22771.18)" xlink:href="#g"/>
+    <clipPath id="bh" transform="translate(18.53 30.35)">
+      <path d="M103.09,100.59v53.06a14.1,14.1,0,0,0,6.56-1.72l57.27-33.06c1.88-1.09,2.89-2.47,3-3.79h0V100.59Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="bi" x1="0" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(0, -84.32, -84.32, 0, 24545.57, 157.21)" xlink:href="#i"/>
+    <clipPath id="bk" transform="translate(18.53 30.35)">
+      <rect x="103.09" y="100.59" width="66.83" height="53.06" style="fill: none"/>
+    </clipPath>
+    <clipPath id="bl" transform="translate(18.53 30.35)">
+      <path d="M36.25,100.59v14.49h0a3.56,3.56,0,0,0,2.1,3.28l59,34.08a11.13,11.13,0,0,0,5.69,1.21V100.59Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="bm" x1="0" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 130.79, 130.79, 0, -37778.68, 37.23)" xlink:href="#m"/>
+    <clipPath id="bn" transform="translate(18.53 30.35)">
+      <path d="M96.52,63.74,39.25,96.8c-3.62,2.09-4,5.26-.88,7.07L97.4,138c3.14,1.81,8.63,1.59,12.25-.51l57.27-33.06c3.63-2.09,4-5.26.88-7.07l-59-34.08A10.84,10.84,0,0,0,103.45,62a14.17,14.17,0,0,0-6.93,1.74" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="bo" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(135.44, 38.96, 67.49, -78.2, -19482.75, 22749.74)" xlink:href="#o"/>
+    <clipPath id="bq" transform="translate(18.53 30.35)">
+      <path d="M98.35,73.5,57.08,97.33c-2.62,1.51-2.9,3.79-.64,5.1L99,127c2.26,1.31,6.22,1.15,8.83-.36L149.1,102.8c2.61-1.51,2.89-3.8.63-5.1L107.19,73.13a7.87,7.87,0,0,0-3.84-.88,10.22,10.22,0,0,0-5,1.25" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="br" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(97.63, 28.09, 48.64, -56.37, -14009.1, 16433.92)" xlink:href="#g"/>
+    <clipPath id="bs" transform="translate(18.53 30.35)">
+      <path d="M103.09,88.89v39a10.23,10.23,0,0,0,4.73-1.23L149.1,102.8a3.76,3.76,0,0,0,2.15-2.74h0V88.89Zm0,0v0Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="bt" x1="0" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(0, 82.68, 82.68, 0, -23813.09, 63.77)" xlink:href="#t"/>
+    <clipPath id="bu" transform="translate(18.53 30.35)">
+      <path d="M54.91,88.89v11.17h0a2.57,2.57,0,0,0,1.52,2.37L99,127a8,8,0,0,0,4.1.87v-39Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="bv" x1="0" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 94.78, 94.78, 0, -27347.65, 43.24)" xlink:href="#m"/>
+    <clipPath id="bw" transform="translate(18.53 30.35)">
+      <path d="M98.35,62.33,57.08,86.16c-2.62,1.51-2.9,3.79-.64,5.1L99,115.82c2.26,1.31,6.22,1.14,8.83-.36L149.1,91.62c2.61-1.5,2.89-3.79.63-5.09L107.19,62a7.87,7.87,0,0,0-3.84-.88,10.22,10.22,0,0,0-5,1.25" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="bx" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(97.63, 28.09, 48.64, -56.37, -14009.1, 16422.74)" xlink:href="#g"/>
+    <clipPath id="bz" transform="translate(18.53 30.35)">
+      <path d="M99.93,71.17,72.39,87.07c-1.74,1-1.93,2.53-.42,3.4l28.38,16.39a6.56,6.56,0,0,0,5.9-.25l27.53-15.89c1.74-1,1.93-2.53.42-3.41L105.82,70.93a5.15,5.15,0,0,0-2.56-.59,6.83,6.83,0,0,0-3.33.83" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ca" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(65.13, 18.74, 32.45, -37.6, -9304.84, 10995.14)" xlink:href="#g"/>
+    <clipPath id="cb" transform="translate(18.53 30.35)">
+      <path d="M99.93,71.17,72.39,87.07c-1.74,1-1.93,2.53-.42,3.4l5.28,3L99.93,80.43a6.51,6.51,0,0,1,5.89-.24l23.1,13.33,4.86-2.8c1.74-1,1.93-2.53.42-3.41L105.82,70.93a5.15,5.15,0,0,0-2.56-.59,6.83,6.83,0,0,0-3.33.83" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="cc" x1="0" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(76.33, 0, 0, -76.33, 62.68, 22182.51)" xlink:href="#m"/>
+    <clipPath id="cd" transform="translate(18.53 30.35)">
+      <path d="M99.93,71.17,72.39,87.07c-1.74,1-1.93,2.53-.42,3.4l5.28,3L99.93,80.43a6.84,6.84,0,0,1,3.16-.83V70.35a6.72,6.72,0,0,0-3.16.82" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ce" x1="0" y1="289.51" x2="1" y2="289.51" gradientTransform="matrix(45.52, 0, 0, -45.52, 64.91, 13259.22)" xlink:href="#t"/>
+    <clipPath id="cf" transform="translate(18.53 30.35)">
+      <path d="M38.37,87.82l59,34.08c3.14,1.81,8.63,1.59,12.25-.51l57.27-33.06c3.63-2.09,4-5.26.88-7.08l-59,29.53c-3.14-1.81-8.62-1.58-12.25.51L39.25,80.75c-3.62,2.09-4,5.26-.88,7.07" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="cg" x1="0" y1="289.4" x2="1" y2="289.4" gradientTransform="matrix(135.44, 38.96, 67.49, -78.2, -19488.75, 22740.64)" xlink:href="#g"/>
+    <clipPath id="ch" transform="translate(18.53 30.35)">
+      <path d="M103.09,70.05v53.06a14.1,14.1,0,0,0,6.56-1.72l57.27-33.06c1.88-1.09,2.89-2.47,3-3.79h0V70.05Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ci" x1="0" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(0, -84.32, -84.32, 0, 24545.57, 126.68)" xlink:href="#i"/>
+    <clipPath id="ck" transform="translate(18.53 30.35)">
+      <rect x="103.09" y="70.05" width="66.83" height="53.06" style="fill: none"/>
+    </clipPath>
+    <clipPath id="cl" transform="translate(18.53 30.35)">
+      <path d="M36.25,70.05V84.54h0a3.56,3.56,0,0,0,2.1,3.28l59,34.08a11.13,11.13,0,0,0,5.69,1.21V70.05Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="cm" x1="0" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 130.79, 130.79, 0, -37778.68, 6.69)" xlink:href="#m"/>
+    <clipPath id="cn" transform="translate(18.53 30.35)">
+      <path d="M96.52,33.2,39.25,66.26c-3.62,2.09-4,5.26-.88,7.07l59,34.08c3.14,1.82,8.63,1.59,12.25-.51l57.27-33.06c3.63-2.09,4-5.26.88-7.07l-59-34.08a10.84,10.84,0,0,0-5.32-1.23,14.17,14.17,0,0,0-6.93,1.74" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="co" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(135.44, 38.96, 67.49, -78.2, -19482.75, 22719.2)" xlink:href="#o"/>
+    <clipPath id="cq" transform="translate(18.53 30.35)">
+      <path d="M98.35,43,57.08,66.79c-2.62,1.51-2.9,3.79-.64,5.1L99,96.45c2.26,1.31,6.22,1.15,8.83-.36L149.1,72.26c2.61-1.51,2.89-3.8.63-5.1L107.19,42.59a7.87,7.87,0,0,0-3.84-.88,10.22,10.22,0,0,0-5,1.25" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="cr" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(97.63, 28.09, 48.64, -56.37, -14009.1, 16403.38)" xlink:href="#g"/>
+    <clipPath id="cs" transform="translate(18.53 30.35)">
+      <path d="M103.09,58.35v39a10.23,10.23,0,0,0,4.73-1.23L149.1,72.26a3.76,3.76,0,0,0,2.15-2.74h0V58.35Zm0,0v0Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ct" x1="0" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(0, 82.68, 82.68, 0, -23813.09, 33.23)" xlink:href="#t"/>
+    <clipPath id="cu" transform="translate(18.53 30.35)">
+      <path d="M54.91,58.35V69.52h0a2.57,2.57,0,0,0,1.52,2.37L99,96.45a8,8,0,0,0,4.1.87v-39Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="cv" x1="0" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 94.78, 94.78, 0, -27347.65, 12.7)" xlink:href="#m"/>
+    <clipPath id="cw" transform="translate(18.53 30.35)">
+      <path d="M98.35,31.79,57.08,55.62c-2.62,1.51-2.9,3.79-.64,5.1L99,85.28c2.26,1.31,6.22,1.15,8.83-.36L149.1,61.09c2.61-1.51,2.89-3.8.63-5.1L107.19,31.42a7.87,7.87,0,0,0-3.84-.88,10.22,10.22,0,0,0-5,1.25" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="cx" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(97.63, 28.09, 48.64, -56.37, -14009.1, 16392.21)" xlink:href="#g"/>
+    <clipPath id="cz" transform="translate(18.53 30.35)">
+      <path d="M99.93,40.63,72.39,56.53c-1.74,1-1.93,2.53-.42,3.4l28.38,16.39a6.56,6.56,0,0,0,5.9-.25l27.53-15.89c1.74-1,1.93-2.53.42-3.41L105.82,40.39a5.15,5.15,0,0,0-2.56-.59,6.83,6.83,0,0,0-3.33.83" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="da" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(65.13, 18.74, 32.45, -37.6, -9304.84, 10964.6)" xlink:href="#g"/>
+    <clipPath id="db" transform="translate(18.53 30.35)">
+      <path d="M99.93,40.63,72.39,56.53c-1.74,1-1.93,2.53-.42,3.4l5.28,3L99.93,49.89a6.51,6.51,0,0,1,5.89-.24L128.92,63l4.86-2.8c1.74-1,1.93-2.53.42-3.41L105.82,40.39a5.15,5.15,0,0,0-2.56-.59,6.83,6.83,0,0,0-3.33.83" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="dc" x1="0" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(76.33, 0, 0, -76.33, 62.69, 22151.97)" xlink:href="#m"/>
+    <clipPath id="dd" transform="translate(18.53 30.35)">
+      <path d="M99.93,40.63,72.39,56.53c-1.74,1-1.93,2.53-.42,3.4l5.28,3L99.93,49.89a6.72,6.72,0,0,1,3.16-.82V39.81a6.72,6.72,0,0,0-3.16.82" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="de" x1="0" y1="289.51" x2="1" y2="289.51" gradientTransform="matrix(45.52, 0, 0, -45.52, 64.92, 13228.68)" xlink:href="#t"/>
+    <clipPath id="df" transform="translate(18.53 30.35)">
+      <path d="M38.37,57.28l59,34.08c3.14,1.81,8.63,1.59,12.25-.51l57.27-33.06c3.63-2.09,4-5.26.88-7.08l-59,29.53c-3.14-1.81-8.62-1.58-12.25.51L39.25,50.21c-3.62,2.09-4,5.26-.88,7.07" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="dg" x1="0" y1="289.4" x2="1" y2="289.4" gradientTransform="matrix(135.44, 38.96, 67.49, -78.2, -19488.75, 22710.1)" xlink:href="#g"/>
+    <clipPath id="dh" transform="translate(18.53 30.35)">
+      <path d="M103.09,39.51V92.57a14.1,14.1,0,0,0,6.56-1.72l57.27-33.06c1.88-1.09,2.89-2.47,3-3.79h0V39.51Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="di" x1="0" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(0, -84.32, -84.32, 0, 24545.57, 96.13)" xlink:href="#i"/>
+    <clipPath id="dk" transform="translate(18.53 30.35)">
+      <rect x="103.09" y="39.51" width="66.83" height="53.06" style="fill: none"/>
+    </clipPath>
+    <clipPath id="dl" transform="translate(18.53 30.35)">
+      <path d="M36.25,39.51V54h0a3.56,3.56,0,0,0,2.1,3.28l59,34.08a11.13,11.13,0,0,0,5.69,1.21V39.51Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="dm" x1="0" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 130.79, 130.79, 0, -37778.68, -23.86)" xlink:href="#m"/>
+    <clipPath id="dn" transform="translate(18.53 30.35)">
+      <path d="M96.52,2.66,39.25,35.72c-3.62,2.09-4,5.26-.88,7.07l59,34.08c3.14,1.82,8.63,1.59,12.25-.5L166.92,43.3c3.63-2.09,4-5.26.88-7.07l-59-34.08A10.84,10.84,0,0,0,103.45.93a14.17,14.17,0,0,0-6.93,1.73" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="do" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(135.44, 38.96, 67.49, -78.2, -19482.75, 22688.66)" xlink:href="#o"/>
+    <clipPath id="dq" transform="translate(18.53 30.35)">
+      <path d="M98.35,12.42,57.08,36.25c-2.62,1.51-2.9,3.79-.64,5.1L99,65.91c2.26,1.31,6.22,1.15,8.83-.36L149.1,41.72c2.61-1.51,2.89-3.79.63-5.1L107.19,12.05a7.87,7.87,0,0,0-3.84-.88,10.22,10.22,0,0,0-5,1.25" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="dr" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(97.63, 28.09, 48.64, -56.37, -14009.1, 16372.84)" xlink:href="#g"/>
+    <clipPath id="ds" transform="translate(18.53 30.35)">
+      <path d="M103.09,27.81v39a10.37,10.37,0,0,0,4.73-1.24L149.1,41.72A3.76,3.76,0,0,0,151.25,39h0V27.81Zm0,0v0Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="dt" x1="0" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(0, 82.68, 82.68, 0, -23813.09, 2.69)" xlink:href="#t"/>
+    <clipPath id="du" transform="translate(18.53 30.35)">
+      <path d="M54.91,27.81V39h0a2.57,2.57,0,0,0,1.52,2.37L99,65.91a8.06,8.06,0,0,0,4.1.88v-39Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="dv" x1="0" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 94.78, 94.78, 0, -27347.67, -17.84)" xlink:href="#m"/>
+    <clipPath id="dw" transform="translate(18.53 30.35)">
+      <path d="M103.29,0a10.24,10.24,0,0,0-4.94,1.25L57.08,25.08c-2.62,1.51-2.9,3.79-.64,5.1L99,54.74c2.26,1.31,6.22,1.15,8.83-.36L149.1,30.55c2.61-1.51,2.89-3.8.63-5.1L107.19.88A7.84,7.84,0,0,0,103.42,0Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="dx" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(97.63, 28.09, 48.64, -56.37, -14009.1, 16361.67)" xlink:href="#g"/>
+    <clipPath id="dz" transform="translate(18.53 30.35)">
+      <path d="M99.93,10.09,72.39,26c-1.74,1-1.93,2.53-.42,3.4l28.38,16.39a6.56,6.56,0,0,0,5.9-.25l27.53-15.89c1.74-1,1.93-2.53.42-3.41L105.82,9.85a5.15,5.15,0,0,0-2.56-.59,6.83,6.83,0,0,0-3.33.83" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ea" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(65.13, 18.74, 32.45, -37.6, -9304.84, 10934.06)" xlink:href="#g"/>
+    <clipPath id="eb" transform="translate(18.53 30.35)">
+      <path d="M99.93,10.09,72.39,26c-1.74,1-1.93,2.53-.42,3.4l5.28,3L99.93,19.35a6.54,6.54,0,0,1,5.89-.24l23.1,13.33,4.86-2.8c1.74-1,1.93-2.53.42-3.41L105.82,9.85a5.15,5.15,0,0,0-2.56-.59,6.83,6.83,0,0,0-3.33.83" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ec" x1="0" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(76.33, 0, 0, -76.33, 62.68, 22121.44)" xlink:href="#m"/>
+    <clipPath id="ed" transform="translate(18.53 30.35)">
+      <path d="M99.93,10.09,72.39,26c-1.74,1-1.93,2.53-.42,3.4l5.28,3L99.93,19.35a6.72,6.72,0,0,1,3.16-.82V9.27a6.72,6.72,0,0,0-3.16.82" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ee" x1="0" y1="289.51" x2="1" y2="289.51" gradientTransform="matrix(45.52, 0, 0, -45.52, 64.91, 13198.14)" xlink:href="#t"/>
+    <clipPath id="eg" transform="translate(18.53 30.35)">
+      <rect x="155.51" y="226.71" width="95.29" height="55.01" style="fill: none"/>
+    </clipPath>
+    <clipPath id="eh" transform="translate(18.53 30.35)">
+      <path d="M198.32,287.34l-53.11-30.66a2.76,2.76,0,0,1-1.62-2.27c0-1.09.88-2.23,2.42-3.11l51.51-29.75c3.1-1.79,7.8-2,10.47-.45l53.1,30.66a2.75,2.75,0,0,1,1.63,2.27c0,1.09-.89,2.23-2.42,3.11l-51.52,29.75a12.28,12.28,0,0,1-6,1.49,9.1,9.1,0,0,1-4.5-1M197,220.57l-51.52,29.75c-1.89,1.09-3,2.59-3,4.09a3.83,3.83,0,0,0,2.19,3.25l53.1,30.66a10.3,10.3,0,0,0,5.07,1.17,13.41,13.41,0,0,0,6.52-1.62l51.52-29.75c1.9-1.09,3-2.58,3-4.09a3.82,3.82,0,0,0-2.2-3.25l-53.1-30.66a10.38,10.38,0,0,0-5.07-1.17,13.44,13.44,0,0,0-6.52,1.62" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ei" x1="0" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(121.39, 0, 0, -121.39, 160.99, 35424.3)" xlink:href="#e"/>
+    <clipPath id="ej" transform="translate(18.53 30.35)">
+      <path d="M197.14,196l-52.39,30.25c-3.32,1.92-3.68,4.81-.8,6.47l54,31.18c2.87,1.66,7.89,1.45,11.21-.46l52.39-30.25c3.32-1.92,3.68-4.81.81-6.47l-54-31.18a9.82,9.82,0,0,0-4.87-1.12,13,13,0,0,0-6.34,1.58" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ek" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(123.92, 35.65, 61.74, -71.55, -17714.71, 20954.4)" xlink:href="#g"/>
+    <clipPath id="el" transform="translate(18.53 30.35)">
+      <path d="M203.15,158.25V265a12.94,12.94,0,0,0,6-1.57l52.39-30.25c1.73-1,2.65-2.26,2.73-3.47h0V158.25Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="em" x1="0" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(0, -114.68, -114.68, 0, 33433.63, 256.78)" xlink:href="#i"/>
+    <clipPath id="eq" transform="translate(18.53 30.35)">
+      <rect x="203.15" y="158.25" width="61.15" height="106.74" style="fill: none"/>
+    </clipPath>
+    <clipPath id="er" transform="translate(18.53 30.35)">
+      <path d="M142,158.25V229.7h0a3.23,3.23,0,0,0,1.93,3l54,31.18a10.19,10.19,0,0,0,5.2,1.11V158.25Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="es" x1="0" y1="289.41" x2="1" y2="289.41" gradientTransform="matrix(0, 159.85, 159.85, 0, -46089.93, 101.74)" xlink:href="#m"/>
+    <clipPath id="eu" transform="translate(18.53 30.35)">
+      <rect x="203.15" y="158.25" width="61.15" height="98.57" style="fill: none"/>
+    </clipPath>
+    <clipPath id="ev" transform="translate(18.53 30.35)">
+      <path d="M222.6,254.71v-8.23a4.45,4.45,0,0,0,1.61-3.18c0-1.11-.69-1.64-1.61-1.32v-8.24a4.61,4.61,0,0,0,1.57-2.71l18.16-10.49a1.1,1.1,0,0,0,1.57.91v8.23a4.45,4.45,0,0,0-1.61,3.18c0,1.11.69,1.64,1.61,1.32v8.24a4.45,4.45,0,0,0-1.23,1.65l3.24-1.87a1.09,1.09,0,0,0-1.24-.22v-8.24a4.6,4.6,0,0,0,1.56-2.71L264.3,220.6v-.89l-18.07,10.43a1.09,1.09,0,0,0-1.56-.9V221a4.46,4.46,0,0,0,1.6-3.17c0-1.12-.69-1.65-1.6-1.33v-8.23a4.63,4.63,0,0,0,1.56-2.71l18.07-10.44v-.88l-18.07,10.43a1.1,1.1,0,0,0-1.56-.91v-8.23a4.48,4.48,0,0,0,1.6-3.18c0-1.11-.69-1.64-1.6-1.32v-8.24a4.6,4.6,0,0,0,1.56-2.71l18.07-10.43v-.89l-18.07,10.43a1.09,1.09,0,0,0-1.56-.9v-8.24a4.46,4.46,0,0,0,1.6-3.17c0-1.12-.69-1.65-1.6-1.33v-7.3h-.77V166a4.61,4.61,0,0,0-1.57,2.71l-18.16,10.48a1.1,1.1,0,0,0-1.57-.9v-8.24a4.43,4.43,0,0,0,1.61-3.17c0-1.12-.69-1.65-1.61-1.33v-7.3h-.77V166a4.6,4.6,0,0,0-1.56,2.71l-17.12,9.88v.89l17.12-9.88a1.09,1.09,0,0,0,1.56.9v8.23a4.48,4.48,0,0,0-1.6,3.18c0,1.12.69,1.65,1.6,1.33v8.23a4.63,4.63,0,0,0-1.56,2.71l-17.12,9.88V205l17.12-9.88a1.09,1.09,0,0,0,1.56.9v8.24a4.46,4.46,0,0,0-1.6,3.18c0,1.11.69,1.64,1.6,1.32V217a4.6,4.6,0,0,0-1.56,2.71l-17.12,9.88v.89l17.12-9.89a1.1,1.1,0,0,0,1.56.91v8.23a4.48,4.48,0,0,0-1.6,3.18c0,1.12.69,1.64,1.6,1.32v8.24a4.6,4.6,0,0,0-1.56,2.71L203.15,255v.89L220.27,246a1.09,1.09,0,0,0,1.56.9v8.24a4.53,4.53,0,0,0-1.24,1.66l3.26-1.88a1.12,1.12,0,0,0-1.25-.23m0-59.18a4.45,4.45,0,0,0,1.61-3.18c0-1.11-.69-1.64-1.61-1.32v-8.24a4.61,4.61,0,0,0,1.57-2.71l18.16-10.48a1.1,1.1,0,0,0,1.57.9v8.23a4.45,4.45,0,0,0-1.61,3.18c0,1.12.69,1.65,1.61,1.33v8.23a4.64,4.64,0,0,0-1.57,2.71l-18.16,10.49a1.11,1.11,0,0,0-1.57-.91Zm0,25.47a4.43,4.43,0,0,0,1.61-3.17c0-1.12-.69-1.65-1.61-1.33v-8.23a4.64,4.64,0,0,0,1.57-2.71l18.16-10.49a1.1,1.1,0,0,0,1.57.9v8.24a4.43,4.43,0,0,0-1.61,3.17c0,1.12.69,1.65,1.61,1.33V217a4.61,4.61,0,0,0-1.57,2.71l-18.16,10.48a1.1,1.1,0,0,0-1.57-.9Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ew" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(61.15, 0, 0, -61.15, 221.68, 17939.09)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fa9f97"/>
+      <stop offset="1" stop-color="#fcc29f"/>
+    </linearGradient>
+    <clipPath id="ex" transform="translate(18.53 30.35)">
+      <path d="M165.42,195.88l18.16,10.48a4.61,4.61,0,0,0,1.57,2.71v8.24c-.92-.32-1.61.21-1.61,1.32a4.43,4.43,0,0,0,1.61,3.18v8.24a1.1,1.1,0,0,0-1.57.9l-18.16-10.49a4.64,4.64,0,0,0-1.57-2.71v-8.23c.92.32,1.61-.21,1.61-1.33a4.43,4.43,0,0,0-1.61-3.17v-8.24a1.61,1.61,0,0,0,.5.09,1.08,1.08,0,0,0,1.07-1m0-25.48,18.16,10.49a4.64,4.64,0,0,0,1.57,2.71v8.23c-.92-.32-1.61.21-1.61,1.33a4.47,4.47,0,0,0,1.61,3.18v8.23a1.1,1.1,0,0,0-1.57.9L165.42,195a4.61,4.61,0,0,0-1.57-2.71V184c.92.32,1.61-.21,1.61-1.32a4.45,4.45,0,0,0-1.61-3.18v-8.23a1.61,1.61,0,0,0,.5.09,1.08,1.08,0,0,0,1.07-1m19.73-12.15v8.11c-.92-.32-1.61.21-1.61,1.33a4.43,4.43,0,0,0,1.61,3.17v8.24a1.1,1.1,0,0,0-1.57.9l-18.16-10.49a4.64,4.64,0,0,0-1.57-2.71v-8.23a1.1,1.1,0,0,0,1.33-.32h-2.1v8.11c-.91-.32-1.6.21-1.6,1.32a4.46,4.46,0,0,0,1.6,3.18v8.24a1.09,1.09,0,0,0-1.56.9l-18.16-10.49A4.64,4.64,0,0,0,142,167v4.34a1.07,1.07,0,0,0,1.34-1l18.17,10.49a4.58,4.58,0,0,0,1.56,2.71v8.23c-.91-.32-1.6.21-1.6,1.33a4.5,4.5,0,0,0,1.6,3.18v8.23a1.09,1.09,0,0,0-1.56.9L143.36,195a4.67,4.67,0,0,0-1.35-2.5v4.34a1.06,1.06,0,0,0,1.34-1l18.17,10.48a4.55,4.55,0,0,0,1.56,2.71v8.24c-.91-.32-1.6.21-1.6,1.32a4.46,4.46,0,0,0,1.6,3.18V230a1.1,1.1,0,0,0-1.56.91l-18.16-10.49A4.71,4.71,0,0,0,142,218v4.35a1.07,1.07,0,0,0,1.34-1l18.17,10.49a4.58,4.58,0,0,0,1.56,2.71v8.23a1.09,1.09,0,0,0-1.25.25l3.26,1.88a4.5,4.5,0,0,0-1.24-1.68V235c.92.32,1.61-.21,1.61-1.32a4.43,4.43,0,0,0-1.61-3.18v-8.24a1.1,1.1,0,0,0,1.57-.9l18.16,10.49a4.64,4.64,0,0,0,1.57,2.71v8.23c-.92-.32-1.61.21-1.61,1.33a4.43,4.43,0,0,0,1.61,3.17v8.24a1.12,1.12,0,0,0-1.26.24l3.28,1.9a4.51,4.51,0,0,0-1.26-1.7v-8.23a1.1,1.1,0,0,0,1.57-.9l15.67,9V255l-15.67-9.05a4.61,4.61,0,0,0-1.57-2.71V235c.92.32,1.61-.21,1.61-1.32a4.43,4.43,0,0,0-1.61-3.18v-8.24a1.1,1.1,0,0,0,1.57-.9l15.67,9.05v-.89l-15.67-9a4.64,4.64,0,0,0-1.57-2.71v-8.23c.92.32,1.61-.21,1.61-1.33a4.43,4.43,0,0,0-1.61-3.17v-8.24a1.1,1.1,0,0,0,1.57-.9l15.67,9.05V204l-15.67-9a4.61,4.61,0,0,0-1.57-2.71V184c.92.32,1.61-.21,1.61-1.32a4.45,4.45,0,0,0-1.61-3.18v-8.23a1.11,1.11,0,0,0,1.57-.91l15.67,9v-.89l-15.67-9.05a4.64,4.64,0,0,0-1.57-2.71v-8.55Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ey" x1="0" y1="289.45" x2="1" y2="289.45" gradientTransform="matrix(0, 147.98, 147.98, 0, -42659.75, 133.42)" xlink:href="#m"/>
+    <clipPath id="ez" transform="translate(18.53 30.35)">
+      <path d="M142,158.25v.37a1,1,0,0,0,1.1-.37Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="fa" x1="0" y1="289.46" x2="1" y2="289.46" gradientTransform="matrix(1.11, 0, 0, -1.11, 160.53, 509.69)" xlink:href="#ew"/>
+    <clipPath id="fb" transform="translate(18.53 30.35)">
+      <path d="M197.14,124.53l-52.39,30.25c-3.32,1.92-3.68,4.82-.8,6.47l54,31.18c2.87,1.66,7.89,1.46,11.21-.46l52.39-30.25c3.32-1.91,3.68-4.81.81-6.47l-54-31.18a9.92,9.92,0,0,0-4.86-1.12,13.14,13.14,0,0,0-6.35,1.58" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="fc" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(123.92, 35.65, 61.74, -71.55, -17714.71, 20882.95)" xlink:href="#o"/>
+    <clipPath id="fe" transform="translate(18.53 30.35)">
+      <path d="M198.88,139.08l-37.29,16.58c-2.36,1.36-2.61,3.42-.57,4.6l38.43,22.19c2,1.18,5.62,1,8-.33l37.28-21.52c2.36-1.37,2.62-3.43.57-4.61l-38.43-17.24a7.08,7.08,0,0,0-3.46-.8,9.31,9.31,0,0,0-4.51,1.13" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ff" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(88.18, 25.37, 43.94, -50.91, -12543.24, 14916.18)" xlink:href="#g"/>
+    <clipPath id="fg" transform="translate(18.53 30.35)">
+      <path d="M203.15,153v30.26a9.24,9.24,0,0,0,4.28-1.12l37.28-21.52a3.4,3.4,0,0,0,1.94-2.47h0V153Zm0,0v0Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="fh" x1="0" y1="289.54" x2="1" y2="289.54" gradientTransform="matrix(0, 73.35, 73.35, 0, -21013.05, 128.37)" xlink:href="#t"/>
+    <clipPath id="fi" transform="translate(18.53 30.35)">
+      <path d="M159.64,153v5.15h0a2.3,2.3,0,0,0,1.37,2.13l38.43,22.19a7.22,7.22,0,0,0,3.7.79V153Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="fj" x1="0" y1="289.38" x2="1" y2="289.38" gradientTransform="matrix(0, 82.19, 82.19, 0, -23601.82, 111.63)" xlink:href="#m"/>
+    <clipPath id="fk" transform="translate(18.53 30.35)">
+      <path d="M198.88,129l-37.29,21.52c-2.36,1.37-2.61,3.43-.57,4.61l38.43,22.19c2,1.18,5.62,1,8-.33l37.28-21.53c2.36-1.36,2.62-3.42.57-4.6l-38.43-22.19a7,7,0,0,0-3.46-.8,9.31,9.31,0,0,0-4.51,1.13" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="fl" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(88.18, 25.37, 43.94, -50.91, -12541.53, 14909.06)" xlink:href="#o"/>
+    <clipPath id="fn" transform="translate(18.53 30.35)">
+      <path d="M210.15,143.61l-20.8,12a1.73,1.73,0,0,0-.54,2.87,2.94,2.94,0,0,1,.54-.41l20.8-12a7,7,0,0,1,6.35.26,4.18,4.18,0,0,1,1,.8c1-1,.63-2.32-1-3.27a7.44,7.44,0,0,0-3.6-.89,5.64,5.64,0,0,0-2.75.63" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="fo" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(0, 39.93, 39.93, 0, -11355.35, 138.49)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f88b93"/>
+      <stop offset="1" stop-color="#c5468f"/>
+    </linearGradient>
+    <clipPath id="fq" transform="translate(18.53 30.35)">
+      <path d="M188.26,122.9V143h0a2.61,2.61,0,0,0,1.53,2,7.09,7.09,0,0,0,6.36.26l20.8-12a1.88,1.88,0,0,0,1.07-1.57h0V111.55Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="fr" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(53.76, 0, 0, -53.76, 181.95, 15692.71)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e4608d"/>
+      <stop offset="0.13" stop-color="#e4608d"/>
+      <stop offset="0.14" stop-color="#e5648e"/>
+      <stop offset="0.2" stop-color="#ec7f92"/>
+      <stop offset="0.27" stop-color="#f29596"/>
+      <stop offset="0.36" stop-color="#f7a599"/>
+      <stop offset="0.46" stop-color="#fab19b"/>
+      <stop offset="0.6" stop-color="#fbb89d"/>
+      <stop offset="1" stop-color="#fcba9d"/>
+    </linearGradient>
+    <clipPath id="fs" transform="translate(18.53 30.35)">
+      <path d="M210.15,109.21l-20.8,12c-1.63.94-1.43,2.58.45,3.67a7.09,7.09,0,0,0,6.36.26l20.8-12c1.62-.94,1.42-2.58-.46-3.66a7.33,7.33,0,0,0-3.59-.9,5.66,5.66,0,0,0-2.76.63" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ft" x1="0" y1="289.48" x2="1" y2="289.48" gradientTransform="matrix(-42.05, 10.74, -24.86, -26.08, 7439.84, 7692.52)" xlink:href="#t"/>
+    <clipPath id="fu" transform="translate(18.53 30.35)">
+      <path d="M182,95.1v28.1h0c0,.56.33,1.16,1.14,1.63l6.57,3.79a5.26,5.26,0,0,0,4.75.2l28-16.1a1.4,1.4,0,0,0,.8-1.15h0V83.13Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="fv" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(76.71, 0, 0, -76.71, 189.05, 22343.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#751480"/>
+      <stop offset="0.03" stop-color="#7c1b81"/>
+      <stop offset="0.25" stop-color="#a84387"/>
+      <stop offset="0.47" stop-color="#cb628c"/>
+      <stop offset="0.67" stop-color="#e47990"/>
+      <stop offset="0.85" stop-color="#f38692"/>
+      <stop offset="1" stop-color="#f88b93"/>
+    </linearGradient>
+    <clipPath id="fw" transform="translate(18.53 30.35)">
+      <path d="M210.87,77.7l-28,16.1c-1.22.7-1.06,1.93.34,2.74l6.57,3.79a5.29,5.29,0,0,0,4.75.2l28-16.1c1.21-.7,1.06-1.93-.34-2.74l-6.57-3.8a5.56,5.56,0,0,0-2.69-.67,4.18,4.18,0,0,0-2.06.48" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="fx" x1="0" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(-59.2, 30.01, -61.05, -38.87, 17919.12, 11358.76)" xlink:href="#o"/>
+    <clipPath id="fz" transform="translate(18.53 30.35)">
+      <path d="M163.32,46.28A12.25,12.25,0,0,0,157.12,57v77a7.15,7.15,0,0,1-10.72,6.19l-15.66-9a2.63,2.63,0,0,0-2.62,4.55l15.65,9A12.4,12.4,0,0,0,162.37,134V57a7.14,7.14,0,0,1,10.7-6.19l12,7a11.64,11.64,0,0,1,5.8,10V92.61a2.63,2.63,0,1,0,5.25,0V67.82a16.89,16.89,0,0,0-8.42-14.59l-11.95-6.95a12.26,12.26,0,0,0-12.39,0" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="ga" x1="0" y1="289.49" x2="1" y2="289.49" gradientTransform="matrix(0, 151.63, 151.63, 0, -43733.83, 28.04)" xlink:href="#fv"/>
+    <clipPath id="gb" transform="translate(18.53 30.35)">
+      <path d="M215.71,221.45l20.77-5.92a.79.79,0,0,1,.85.29l12.81,17.4a.79.79,0,0,0,1.42-.53L247.82,186a.79.79,0,0,0-1.37-.47L214.9,220.16A.79.79,0,0,0,215.71,221.45Z" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="gc" x1="257.99" y1="263.71" x2="265.48" y2="246.12" gradientTransform="translate(89.37 -89.02) rotate(18.87)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3d5ca9"/>
+      <stop offset="1" stop-color="#2ac4f3"/>
+    </linearGradient>
+    <linearGradient id="gd" x1="261.3" y1="236.96" x2="281.13" y2="282.19" gradientTransform="translate(89.37 -89.02) rotate(18.87)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3656a5"/>
+      <stop offset="0.25" stop-color="#3659a7"/>
+      <stop offset="0.45" stop-color="#3564af"/>
+      <stop offset="0.64" stop-color="#3375bb"/>
+      <stop offset="0.82" stop-color="#318dcc"/>
+      <stop offset="0.94" stop-color="#2fa2db"/>
+    </linearGradient>
+  </defs>
+  <title>404</title>
+  <g style="clip-path: url(#a)">
+    <g style="clip-path: url(#a)">
+      <g style="opacity: 0.399993985891342">
+        <g style="clip-path: url(#c)">
+          <path d="M98.52,230.28,51.08,202.89c-2.53-1.45-2.21-4,.7-5.68l46-26.57c2.91-1.69,7.32-1.87,9.85-.41l47.44,27.39c2.52,1.45,2.2,4-.71,5.68l-46,26.57c-2.92,1.69-7.33,1.87-9.85.41" transform="translate(18.53 30.35)" style="fill: #0b0244"/>
+        </g>
+      </g>
+    </g>
+    <g style="clip-path: url(#d)">
+      <rect x="54.55" y="191.66" width="134.13" height="77.9" style="fill: url(#e)"/>
+    </g>
+    <g style="clip-path: url(#f)">
+      <polygon points="80.75 171.44 219.18 211.26 162.48 276.96 24.05 237.14 80.75 171.44" style="fill: url(#g)"/>
+    </g>
+    <g style="clip-path: url(#h)">
+      <rect x="96.81" y="145.99" width="79.38" height="84.41" transform="translate(-76.22 242.53) rotate(-59.97)" style="fill: url(#i)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <g style="opacity: 0.5">
+        <g style="clip-path: url(#k)">
+          <path d="M168.65,161.67v13.5h0c-.09,1.32-1.1,2.7-3,3.79L108.38,212a13.52,13.52,0,0,1-5.29,1.62v1.08a14,14,0,0,0,6.56-1.71L166.92,180c1.88-1.09,2.89-2.47,3-3.8h0V161.67Z" transform="translate(18.53 30.35)" style="fill: #fcc29f"/>
+        </g>
+      </g>
+    </g>
+    <g style="clip-path: url(#l)">
+      <rect x="31.07" y="146.5" width="77.14" height="83.45" transform="translate(-111.5 198.25) rotate(-63.88)" style="fill: url(#m)"/>
+    </g>
+    <g style="clip-path: url(#n)">
+      <polygon points="80.75 122.16 243.23 168.9 162.48 262.47 0 215.73 80.75 122.16" style="fill: url(#o)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M166.92,163.63l-57.27,33.06c-3.62,2.09-9.11,2.32-12.25.51l-59-34.08a4.12,4.12,0,0,1-2-2.18c-.47,1.48.16,3,2,4L97.4,199c3.14,1.81,8.63,1.59,12.25-.51l57.27-33.06c2.42-1.4,3.39-3.27,2.84-4.9a5.89,5.89,0,0,1-2.84,3.07" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#q)">
+      <polygon points="92.16 141.14 209.27 174.83 151.07 242.27 33.96 208.58 92.16 141.14" style="fill: url(#r)"/>
+    </g>
+    <g style="clip-path: url(#s)">
+      <rect x="95.68" y="132.68" width="62.98" height="56.92" transform="translate(-34.7 289.44) rotate(-80.22)" style="fill: url(#t)"/>
+    </g>
+    <g style="clip-path: url(#u)">
+      <rect x="50.85" y="139.24" width="56.25" height="60.47" transform="translate(-89.43 196.14) rotate(-63.88)" style="fill: url(#v)"/>
+    </g>
+    <g style="clip-path: url(#w)">
+      <polygon points="92.16 129.97 209.27 163.66 151.07 231.1 33.96 197.41 92.16 129.97" style="fill: url(#x)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M149.1,151.08l-41.28,23.83c-2.61,1.51-6.57,1.67-8.83.37L56.44,150.71a3,3,0,0,1-1.34-1.43c-.45,1.12,0,2.26,1.34,3.06L99,176.9c2.26,1.31,6.22,1.14,8.83-.37L149.1,152.7c1.81-1,2.47-2.45,2-3.66a4.33,4.33,0,0,1-2,2" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#z)">
+      <polygon points="101.97 146.73 180.09 169.2 141.26 214.2 63.14 191.72 101.97 146.73" style="fill: url(#aa)"/>
+    </g>
+    <g style="clip-path: url(#ab)">
+      <rect x="68.47" y="121.66" width="69.24" height="42.7" transform="translate(-21.55 70.49) rotate(-18.51)" style="fill: url(#ac)"/>
+    </g>
+    <g style="clip-path: url(#ad)">
+      <rect x="67.63" y="126.84" width="38.3" height="32.34" transform="translate(-22.39 65.31) rotate(-18.51)" style="fill: url(#ae)"/>
+    </g>
+    <g style="clip-path: url(#af)">
+      <polygon points="80.75 140.9 219.17 180.72 162.48 246.42 24.06 206.59 80.75 140.9" style="fill: url(#ag)"/>
+    </g>
+    <g style="clip-path: url(#ah)">
+      <rect x="96.81" y="115.45" width="79.38" height="84.41" transform="translate(-49.78 227.27) rotate(-59.97)" style="fill: url(#ai)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <g style="opacity: 0.5">
+        <g style="clip-path: url(#ak)">
+          <path d="M168.65,131.13v13.5h0c-.09,1.33-1.1,2.7-3,3.79l-57.27,33.06a13.52,13.52,0,0,1-5.29,1.62v1.09a14.1,14.1,0,0,0,6.56-1.72l57.27-33.06c1.88-1.09,2.89-2.47,3-3.79h0V131.13Z" transform="translate(18.53 30.35)" style="fill: #fcc29f"/>
+        </g>
+      </g>
+    </g>
+    <g style="clip-path: url(#al)">
+      <rect x="31.07" y="115.96" width="77.14" height="83.45" transform="translate(-84.07 181.15) rotate(-63.88)" style="fill: url(#am)"/>
+    </g>
+    <g style="clip-path: url(#an)">
+      <polygon points="80.75 91.62 243.23 138.36 162.48 231.93 0 185.19 80.75 91.62" style="fill: url(#ao)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M166.92,133.09l-57.27,33.06c-3.62,2.09-9.11,2.32-12.25.51l-59-34.08a4.12,4.12,0,0,1-2-2.18c-.47,1.48.16,3,2,4l59,34.08c3.14,1.81,8.63,1.59,12.25-.51l57.27-33.06c2.42-1.4,3.39-3.27,2.84-4.9a5.89,5.89,0,0,1-2.84,3.07" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#aq)">
+      <polygon points="92.16 110.6 209.27 144.29 151.07 211.73 33.95 178.04 92.16 110.6" style="fill: url(#ar)"/>
+    </g>
+    <g style="clip-path: url(#as)">
+      <rect x="95.68" y="102.14" width="62.98" height="56.92" transform="matrix(0.17, -0.99, 0.99, 0.17, -4.61, 264.09)" style="fill: url(#at)"/>
+    </g>
+    <g style="clip-path: url(#au)">
+      <rect x="50.85" y="108.7" width="56.25" height="60.47" transform="translate(-62.01 179.04) rotate(-63.88)" style="fill: url(#av)"/>
+    </g>
+    <g style="clip-path: url(#aw)">
+      <polygon points="92.16 99.42 209.27 133.12 151.07 200.56 33.96 166.87 92.16 99.42" style="fill: url(#ax)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M149.1,120.54l-41.28,23.83c-2.61,1.51-6.57,1.68-8.83.37L56.44,120.17a3,3,0,0,1-1.34-1.43c-.45,1.12,0,2.27,1.34,3.06L99,146.36c2.26,1.31,6.22,1.14,8.83-.36l41.28-23.84c1.81-1,2.47-2.45,2-3.66a4.33,4.33,0,0,1-2,2" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#az)">
+      <polygon points="101.97 116.19 180.09 138.66 141.26 183.66 63.14 161.18 101.97 116.19" style="fill: url(#ba)"/>
+    </g>
+    <g style="clip-path: url(#bb)">
+      <rect x="68.47" y="91.12" width="69.24" height="42.7" transform="translate(-11.85 68.91) rotate(-18.51)" style="fill: url(#bc)"/>
+    </g>
+    <g style="clip-path: url(#bd)">
+      <rect x="67.63" y="96.31" width="38.3" height="32.33" transform="translate(-12.7 63.73) rotate(-18.51)" style="fill: url(#be)"/>
+    </g>
+    <g style="clip-path: url(#bf)">
+      <polygon points="80.75 110.36 219.17 150.18 162.48 215.88 24.06 176.06 80.75 110.36" style="fill: url(#bg)"/>
+    </g>
+    <g style="clip-path: url(#bh)">
+      <rect x="96.81" y="84.91" width="79.38" height="84.41" transform="translate(-23.34 212.02) rotate(-59.97)" style="fill: url(#bi)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <g style="opacity: 0.5">
+        <g style="clip-path: url(#bk)">
+          <path d="M168.65,100.59v13.5h0c-.09,1.33-1.1,2.7-3,3.79l-57.27,33.06a13.52,13.52,0,0,1-5.29,1.62v1.09a14.1,14.1,0,0,0,6.56-1.72l57.27-33.06c1.88-1.09,2.89-2.47,3-3.79h0V100.59Z" transform="translate(18.53 30.35)" style="fill: #fcc29f"/>
+        </g>
+      </g>
+    </g>
+    <g style="clip-path: url(#bl)">
+      <rect x="31.07" y="85.42" width="77.14" height="83.45" transform="translate(-56.65 164.05) rotate(-63.88)" style="fill: url(#bm)"/>
+    </g>
+    <g style="clip-path: url(#bn)">
+      <polygon points="80.75 61.08 243.23 107.82 162.48 201.39 0 154.65 80.75 61.08" style="fill: url(#bo)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M166.92,102.55l-57.27,33.06c-3.62,2.09-9.11,2.32-12.25.51L38.37,102a4.12,4.12,0,0,1-2-2.18c-.47,1.48.16,3,2,4L97.4,138c3.14,1.81,8.63,1.59,12.25-.51l57.27-33.06c2.42-1.4,3.39-3.27,2.84-4.9a5.89,5.89,0,0,1-2.84,3.07" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#bq)">
+      <polygon points="92.16 80.06 209.27 113.75 151.07 181.19 33.96 147.5 92.16 80.06" style="fill: url(#br)"/>
+    </g>
+    <g style="clip-path: url(#bs)">
+      <rect x="95.68" y="71.6" width="62.98" height="56.92" transform="translate(25.49 238.74) rotate(-80.22)" style="fill: url(#bt)"/>
+    </g>
+    <g style="clip-path: url(#bu)">
+      <rect x="50.85" y="78.16" width="56.25" height="60.47" transform="translate(-34.59 161.94) rotate(-63.88)" style="fill: url(#bv)"/>
+    </g>
+    <g style="clip-path: url(#bw)">
+      <polygon points="92.16 68.89 209.27 102.58 151.07 170.02 33.96 136.33 92.16 68.89" style="fill: url(#bx)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M149.1,90l-41.28,23.83c-2.61,1.51-6.57,1.68-8.83.37L56.44,89.63A3,3,0,0,1,55.1,88.2c-.45,1.12,0,2.27,1.34,3.06L99,115.82c2.26,1.31,6.22,1.14,8.83-.36L149.1,91.62c1.81-1,2.47-2.45,2-3.66a4.33,4.33,0,0,1-2,2" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#bz)">
+      <polygon points="101.97 85.65 180.09 108.13 141.26 153.12 63.14 130.64 101.97 85.65" style="fill: url(#ca)"/>
+    </g>
+    <g style="clip-path: url(#cb)">
+      <rect x="68.47" y="60.58" width="69.24" height="42.7" transform="translate(-2.15 67.33) rotate(-18.51)" style="fill: url(#cc)"/>
+    </g>
+    <g style="clip-path: url(#cd)">
+      <rect x="67.63" y="65.77" width="38.3" height="32.34" transform="translate(-3 62.15) rotate(-18.51)" style="fill: url(#ce)"/>
+    </g>
+    <g style="clip-path: url(#cf)">
+      <polygon points="80.75 79.82 219.17 119.64 162.48 185.34 24.06 145.52 80.75 79.82" style="fill: url(#cg)"/>
+    </g>
+    <g style="clip-path: url(#ch)">
+      <rect x="96.81" y="54.37" width="79.38" height="84.41" transform="translate(3.1 196.76) rotate(-59.97)" style="fill: url(#ci)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <g style="opacity: 0.5">
+        <g style="clip-path: url(#ck)">
+          <path d="M168.65,70.05v13.5h0c-.09,1.33-1.1,2.7-3,3.79L108.38,120.4a13.52,13.52,0,0,1-5.29,1.62v1.09a14.1,14.1,0,0,0,6.56-1.72l57.27-33.06c1.88-1.09,2.89-2.47,3-3.79h0V70.05Z" transform="translate(18.53 30.35)" style="fill: #fcc29f"/>
+        </g>
+      </g>
+    </g>
+    <g style="clip-path: url(#cl)">
+      <rect x="31.07" y="54.88" width="77.14" height="83.45" transform="translate(-29.23 146.96) rotate(-63.88)" style="fill: url(#cm)"/>
+    </g>
+    <g style="clip-path: url(#cn)">
+      <polygon points="80.75 30.54 243.23 77.28 162.48 170.85 0 124.11 80.75 30.54" style="fill: url(#co)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M166.92,72l-57.27,33.06c-3.62,2.09-9.11,2.32-12.25.51l-59-34.08a4.14,4.14,0,0,1-2-2.17c-.47,1.47.16,3,2,4l59,34.08c3.14,1.82,8.63,1.59,12.25-.51l57.27-33.06c2.42-1.4,3.39-3.27,2.84-4.9A5.89,5.89,0,0,1,166.92,72" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#cq)">
+      <polygon points="92.16 49.52 209.27 83.21 151.07 150.65 33.96 116.96 92.16 49.52" style="fill: url(#cr)"/>
+    </g>
+    <g style="clip-path: url(#cs)">
+      <rect x="95.68" y="41.06" width="62.98" height="56.92" transform="translate(55.58 213.39) rotate(-80.22)" style="fill: url(#ct)"/>
+    </g>
+    <g style="clip-path: url(#cu)">
+      <rect x="50.85" y="47.62" width="56.25" height="60.47" transform="translate(-7.17 144.85) rotate(-63.88)" style="fill: url(#cv)"/>
+    </g>
+    <g style="clip-path: url(#cw)">
+      <polygon points="92.16 38.35 209.27 72.04 151.07 139.48 33.96 105.79 92.16 38.35" style="fill: url(#cx)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M149.1,59.46,107.82,83.29c-2.61,1.51-6.57,1.68-8.83.37L56.44,59.1a3.09,3.09,0,0,1-1.34-1.44c-.45,1.12,0,2.27,1.34,3.06L99,85.28c2.26,1.31,6.22,1.15,8.83-.36L149.1,61.09c1.81-1.05,2.47-2.46,2-3.67a4.33,4.33,0,0,1-2,2" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#cz)">
+      <polygon points="101.97 55.11 180.09 77.59 141.26 122.58 63.14 100.1 101.97 55.11" style="fill: url(#da)"/>
+    </g>
+    <g style="clip-path: url(#db)">
+      <rect x="68.47" y="30.04" width="69.24" height="42.7" transform="matrix(0.95, -0.32, 0.32, 0.95, 7.54, 65.75)" style="fill: url(#dc)"/>
+    </g>
+    <g style="clip-path: url(#dd)">
+      <rect x="67.63" y="35.23" width="38.3" height="32.34" transform="translate(6.7 60.57) rotate(-18.51)" style="fill: url(#de)"/>
+    </g>
+    <g style="clip-path: url(#df)">
+      <polygon points="80.75 49.28 219.18 89.1 162.48 154.8 24.05 114.98 80.75 49.28" style="fill: url(#dg)"/>
+    </g>
+    <g style="clip-path: url(#dh)">
+      <rect x="96.81" y="23.83" width="79.38" height="84.41" transform="translate(29.54 181.51) rotate(-59.97)" style="fill: url(#di)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <g style="opacity: 0.5">
+        <g style="clip-path: url(#dk)">
+          <path d="M168.65,39.51V53h0c-.09,1.33-1.1,2.7-3,3.79L108.38,89.86a13.52,13.52,0,0,1-5.29,1.62v1.09a14.1,14.1,0,0,0,6.56-1.72l57.27-33.06c1.88-1.09,2.89-2.47,3-3.79h0V39.51Z" transform="translate(18.53 30.35)" style="fill: #fcc29f"/>
+        </g>
+      </g>
+    </g>
+    <g style="clip-path: url(#dl)">
+      <rect x="31.07" y="24.34" width="77.14" height="83.45" transform="translate(-1.81 129.86) rotate(-63.88)" style="fill: url(#dm)"/>
+    </g>
+    <g style="clip-path: url(#dn)">
+      <polygon points="80.75 0 243.23 46.74 162.48 140.31 0 93.57 80.75 0" style="fill: url(#do)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M166.92,41.47,109.65,74.53c-3.62,2.09-9.11,2.32-12.25.51L38.37,41a4.1,4.1,0,0,1-2-2.17c-.47,1.47.16,3,2,4l59,34.08c3.14,1.82,8.63,1.59,12.25-.51L166.92,43.3c2.42-1.39,3.39-3.27,2.84-4.9a5.89,5.89,0,0,1-2.84,3.07" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#dq)">
+      <polygon points="92.16 18.98 209.27 52.67 151.07 120.11 33.96 86.42 92.16 18.98" style="fill: url(#dr)"/>
+    </g>
+    <g style="clip-path: url(#ds)">
+      <rect x="95.68" y="10.53" width="62.98" height="56.92" transform="translate(85.68 188.04) rotate(-80.22)" style="fill: url(#dt)"/>
+    </g>
+    <g style="clip-path: url(#du)">
+      <rect x="50.85" y="17.08" width="56.25" height="60.47" transform="translate(20.25 127.75) rotate(-63.88)" style="fill: url(#dv)"/>
+    </g>
+    <g style="clip-path: url(#dw)">
+      <polygon points="92.16 7.81 209.27 41.5 151.07 108.94 33.95 75.25 92.16 7.81" style="fill: url(#dx)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M149.1,28.92,107.82,52.75c-2.61,1.51-6.57,1.68-8.83.37L56.44,28.56a3.09,3.09,0,0,1-1.34-1.44c-.45,1.12,0,2.27,1.34,3.06L99,54.74c2.26,1.31,6.22,1.15,8.83-.36L149.1,30.55c1.81-1.05,2.47-2.46,2-3.67a4.33,4.33,0,0,1-2,2" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#dz)">
+      <polygon points="101.97 24.57 180.09 47.05 141.26 92.04 63.14 69.56 101.97 24.57" style="fill: url(#ea)"/>
+    </g>
+    <g style="clip-path: url(#eb)">
+      <rect x="68.47" y="-0.5" width="69.24" height="42.7" transform="translate(17.24 64.17) rotate(-18.51)" style="fill: url(#ec)"/>
+    </g>
+    <g style="clip-path: url(#ed)">
+      <rect x="67.63" y="4.69" width="38.3" height="32.33" transform="translate(16.4 58.99) rotate(-18.51)" style="fill: url(#ee)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <g style="opacity: 0.399993985891342">
+        <g style="clip-path: url(#eg)">
+          <path d="M199.1,280.85,157,256.56c-2.24-1.29-2-3.55.63-5L198.47,228c2.59-1.49,6.5-1.66,8.74-.36l42.07,24.29c2.24,1.29,2,3.55-.62,5l-40.83,23.57c-2.58,1.49-6.49,1.66-8.73.36" transform="translate(18.53 30.35)" style="fill: #0b0244"/>
+        </g>
+      </g>
+    </g>
+    <g style="clip-path: url(#eh)">
+      <rect x="160.99" y="249.3" width="121.39" height="70.54" style="fill: url(#ei)"/>
+    </g>
+    <g style="clip-path: url(#ej)">
+      <polygon points="184.29 196.13 332.95 238.9 259.07 324.51 110.41 281.74 184.29 196.13" style="fill: url(#ek)"/>
+    </g>
+    <g style="clip-path: url(#el)">
+      <rect x="172.22" y="158.44" width="123.01" height="106.36" transform="translate(-47.93 338.39) rotate(-59.97)" style="fill: url(#em)"/>
+    </g>
+    <g style="clip-path: url(#el)">
+      <rect x="172.22" y="158.44" width="123.01" height="106.36" transform="translate(-47.93 338.39) rotate(-59.97)" style="fill: url(#em)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <g style="opacity: 0.5">
+        <g style="clip-path: url(#eq)">
+          <path d="M263.14,158.25V228.8h0c-.09,1.21-1,2.47-2.73,3.47L208,262.51a12.28,12.28,0,0,1-4.85,1.48v1a12.94,12.94,0,0,0,6-1.57l52.39-30.25c1.73-1,2.65-2.26,2.73-3.47h0V158.25Z" transform="translate(18.53 30.35)" style="fill: #fcc29f"/>
+        </g>
+      </g>
+    </g>
+    <g style="clip-path: url(#er)">
+      <rect x="111.13" y="160.66" width="122.83" height="101.97" transform="translate(-74.91 303.76) rotate(-63.88)" style="fill: url(#es)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <g style="opacity: 0.5">
+        <g style="clip-path: url(#eu)">
+          <g style="clip-path: url(#ev)">
+            <rect x="221.68" y="188.6" width="61.15" height="98.57" style="fill: url(#ew)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g style="clip-path: url(#ex)">
+      <rect x="114.88" y="160.39" width="115.4" height="95.13" transform="translate(-67.75 315.92) rotate(-67)" style="fill: url(#ey)"/>
+    </g>
+    <g style="clip-path: url(#ez)">
+      <rect x="160.53" y="188.6" width="1.11" height="0.47" style="fill: url(#fa)"/>
+    </g>
+    <g style="clip-path: url(#fb)">
+      <polygon points="184.29 124.68 332.95 167.45 259.07 253.06 110.41 210.29 184.29 124.68" style="fill: url(#fc)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M261.55,160l-52.39,30.25c-3.32,1.92-8.34,2.12-11.21.47l-54-31.18a3.8,3.8,0,0,1-1.8-2c-.43,1.35.14,2.71,1.8,3.66l54,31.18c2.87,1.66,7.89,1.46,11.21-.46l52.39-30.25c2.22-1.28,3.11-3,2.61-4.48a5.41,5.41,0,0,1-2.61,2.8" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+    </g>
+    <g style="clip-path: url(#fe)">
+      <polygon points="195.07 147.94 297.43 177.39 248.28 234.34 145.92 204.9 195.07 147.94" style="fill: url(#ff)"/>
+    </g>
+    <g style="clip-path: url(#fg)">
+      <rect x="198.9" y="135.32" width="52.01" height="50.57" transform="translate(46.96 385.3) rotate(-80.22)" style="fill: url(#fh)"/>
+    </g>
+    <g style="clip-path: url(#fi)">
+      <rect x="158.19" y="141.91" width="46.37" height="52.44" transform="translate(-30.9 287.33) rotate(-63.88)" style="fill: url(#fj)"/>
+    </g>
+    <g style="clip-path: url(#fk)">
+      <polygon points="195.07 137.85 300.85 168.28 248.28 229.2 142.5 198.77 195.07 137.85" style="fill: url(#fl)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M244.71,154l-37.28,21.52c-2.37,1.36-5.94,1.51-8,.33L161,153.65a2.69,2.69,0,0,1-1.21-1.29,2.15,2.15,0,0,0,1.21,2.76l38.43,22.19c2,1.18,5.61,1,8-.33l37.28-21.53c1.63-.94,2.23-2.22,1.78-3.31a3.94,3.94,0,0,1-1.78,1.85" transform="translate(18.53 30.35)" style="fill: #fa9f97"/>
+      <path d="M196.16,159.55l20.8-12c1.62-.94,1.42-2.58-.46-3.67a7.07,7.07,0,0,0-6.35-.26l-20.8,12c-1.63.94-1.43,2.58.45,3.67a7.09,7.09,0,0,0,6.36.26" transform="translate(18.53 30.35)" style="fill: #bd458c"/>
+    </g>
+    <g style="clip-path: url(#fn)">
+      <rect x="195.1" y="135.27" width="16.24" height="30.93" transform="translate(66.16 380.6) rotate(-88.62)" style="fill: url(#fo)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M175.4,48.57v2l-8.53-2-7.06,4.85.29,74.44-1.7,11.93-3,5.35,18.32-10.6v0c.23-.12.47-.22.7-.35a12.27,12.27,0,0,0,6.2-10.73V51.29a43.62,43.62,0,0,0-5.26-2.72" transform="translate(18.53 30.35)" style="fill: #fff"/>
+    </g>
+    <g style="clip-path: url(#fq)">
+      <rect x="187.3" y="110.74" width="31.71" height="36.32" transform="translate(11.6 41.97) rotate(-3.22)" style="fill: url(#fr)"/>
+    </g>
+    <g style="clip-path: url(#fs)">
+      <polygon points="231.07 132.59 192.82 142.36 212.29 162.78 250.54 153.01 231.07 132.59" style="fill: url(#ft)"/>
+    </g>
+    <g style="clip-path: url(#fu)">
+      <rect x="200.52" y="113.48" width="41.36" height="46.39" style="fill: url(#fv)"/>
+    </g>
+    <g style="clip-path: url(#fw)">
+      <polygon points="223.6 95.69 179.15 118.22 218.82 143.47 263.27 120.94 223.6 95.69" style="fill: url(#fx)"/>
+    </g>
+    <g style="clip-path: url(#a)">
+      <path d="M161.13,127.56l-12.1-7a2.62,2.62,0,0,0-2.75.09h0L128,131.27l8.55,7.65,12.92,5,7.55-3.74,1.72-8,2.44,1.41Z" transform="translate(18.53 30.35)" style="fill: #fff"/>
+      <path d="M206,42.64l-11.95-7a12.27,12.27,0,0,0-11.89-.25h0l-.32.18-.16.08a.91.91,0,0,1-.16.11L163.31,46.28,178,50.68l11.15,7.62,4.42,13.64,1,23L213,84.31h0A2.6,2.6,0,0,0,214.37,82V57.24A16.91,16.91,0,0,0,206,42.64" transform="translate(18.53 30.35)" style="fill: #fff"/>
+    </g>
+    <g style="clip-path: url(#fz)">
+      <rect x="101.79" y="46.02" width="118.94" height="98.98" transform="translate(37.03 247.3) rotate(-71.03)" style="fill: url(#ga)"/>
+    </g>
+  </g>
+  <g style="opacity: 0.3">
+    <g style="clip-path: url(#gb)">
+      <g>
+        <polygon points="231.56 252.56 266.2 214.51 255.53 245.73 231.56 252.56" style="fill: url(#gc)"/>
+        <polygon points="270.31 265.81 266.2 214.51 255.53 245.73 270.31 265.81" style="fill: url(#gd)"/>
+      </g>
+    </g>
+  </g>
+</svg>

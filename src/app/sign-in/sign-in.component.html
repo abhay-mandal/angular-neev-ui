@@ -1,0 +1,41 @@
+<div class="notes-signin">
+  *If you already signed up for Compass or CARBON, please use the same credentials.
+</div>
+<form [formGroup]="logInFormData" (ngSubmit)="signIn()">
+  <fieldset class="clearfix">
+    <div class="form-group mb-4"><span class="fa fa-user"></span><input type="text" placeholder="Email"
+        class="form-control username" formControlName="email" autocomplete="new-email" tabindex="1">
+      <div *ngIf="f.email.touched && f.email.errors" class="alert alert-danger">
+        <div class="username-error" *ngIf="f.email.errors.required">
+          {{'login.err_msg.email_err_required' | translate}}
+        </div>
+        <div *ngIf="f.email.errors.email">
+          {{'login.err_msg.email_err' | translate}}
+        </div>
+      </div>
+    </div>
+    <!-- JS because of IE support; better: placeholder="Username" -->
+    <div class="form-group mb-4"><span class="fa fa-lock"></span><input class="form-control password" type="password"
+        placeholder="Password" formControlName="password" autocomplete="new-password" tabindex="2">
+      <div *ngIf="f.password.touched && f.password.errors" class="alert alert-danger">
+        <div class="password-error" *ngIf="f.password.errors.required">
+          {{'login.err_msg.pswd_err_required' | translate}}
+        </div>
+        <div *ngIf="f.password.errors.minlength">
+          {{'login.err_msg.min_password_length_error' | translate}}
+        </div>
+      </div>
+    </div> <!-- JS because of IE support; better: placeholder="Password" -->
+    <div style="margin-bottom: 10px;">
+      <span style="text-align:left;  display: inline-block;"><a class="small-text" routerLink="/forgot-password"
+          href="javascript:void(0)">Forgot
+          password?</a></span>
+      <span style="width:50%; text-align:right;  display: inline-block;"><button class="btn btn-md submit"
+          [disabled]="!logInFormData.valid" type="submit" tabindex="4">{{ 'sign_in'| translate}}</button></span>
+    </div>
+    <div class="signup-text">
+      <span style="text-align:left;  display: inline-block;">Don’t have an account? <a href="javascript:void(0)"
+          routerLink="/signup">Sign Up</a></span>
+    </div>
+  </fieldset>
+</form>

@@ -1,0 +1,17 @@
+.menu-heading {
+  background-color: #808080a3;
+  background-image: linear-gradient(-140deg, #adb5bd, #72777b);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+}
+
+li.list-group-item a {
+  color: #555 !important;
+}
+
+// Modal
+// ::ng-deep .modal-open .modal {
+//   overflow-y: hidden;
+// }

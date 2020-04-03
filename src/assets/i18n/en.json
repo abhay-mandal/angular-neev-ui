@@ -1,0 +1,177 @@
+{
+    "app_name": "NEEV UI",
+    "sign_in": "Sign in",
+    "buttons": {
+        "create": "Create",
+        "clear": "Clear",
+        "share": "Share",
+        "cancel": "Cancel",
+        "update" : "Update",
+        "edit": "Edit",
+        "addNew": "Add New",
+        "goBack": "Go Back",
+        "save": "Save"
+    },
+    "sign_up": {
+        "label": "Create your CARBON account now",
+        "select": "Select",
+        "password": "Password",
+        "messages": {
+            "email_error": "Email is required",
+            "invalid_email_error": "Invalid email",
+            "name_error": "Name is required",
+            "alphabet_error": "Only alphabets are allowed",
+            "company_name_error": "Company name is required",
+            "country_name_error": "Select country",
+            "company_name_space_error": "Company name cannot be blank",
+            "contact_number_error": "Contact number is required",
+            "invalid_contact_number_error": "Invalid contact number",
+            "password_error": "Password is required"
+        }
+    },
+    "reset_password": {
+        "label": "Update your password",
+        "place_holder_password": "Password",
+        "place_holder_confirm_password": "Confirmation Password",
+        "min_char": "(6 characters minimum)"
+    },
+    "table": {
+        "name": "Name",
+        "start_date": "Start Date",
+        "end_date": "End Date",
+        "search": "Search",
+        "action": "Action",
+        "selected_rows": "Selected Row(s)",
+        "export_to_csv": "Export To CSV"
+    },
+    "createCard": {
+        "title": "Create Card",
+        "labels": {
+            "cardNameLabel": "Card Name",
+            "cardDescLabel": "Card Description",
+            "cardContentLabel": "Card Content",
+            "cardRenderTypeLabel": "Render Type",
+            "upload_image": "Upload Image",
+            "image": "Image"
+        },
+        "errorMessage": {
+            "cardNameEmptyError": "Card name required",
+            "cardNameInvalid": "Please Enter a valid Card name",
+            "cardNameLengthError": "Card name must be at least 3 characters",
+            "cardDescEmptyError": "Card description required",
+            "cardDescLengthError": "Card description must be at least 5 characters",
+            "cardContentEmptyError": "Card content required"
+        }
+    },
+    "createPage": {
+        "title": "Create Page",
+        "labels": {
+            "pageNameLabel": "Page Name",
+            "pageDescLabel": "Page Description"
+        },
+        "errorMessage": {
+            "pageNameEmptyError": "Page name required",
+            "pageNameInvalid": "Please Enter a valid Page name",
+            "pageNameLengthError": "Page name must be at least 3 characters",
+            "pageDescEmptyError": "Page description required",
+            "pageContentEmptyError": "Page content required"
+        }
+    },
+    "cardContainer": {
+        "title": "My Crads",
+        "explore": "Explore",
+        "settings": "Settings",
+        "unpinCard": "Unpin card",
+        "rateCard": "Rate card",
+        "updateCard": "Update card",
+        "cloneCard": "Clone card"
+    },
+    "catalog": {
+        "title": "Catalog",
+        "selectLabel": "Select Catalog",
+        "pinCard": "Pin card"
+    },
+    "header": {
+        "menus": {
+            "myCategory": "My Category",
+            "createCards": "Create Cards",
+            "myPages": "My Pages",
+            "myMenu": "My Menu",
+            "profile": "Profile",
+            "logout": "Logout"
+        }
+    },
+    "footer": {
+        "copyrightText": "Near © 2019. All rights Reserved",
+        "myPage": "My Page"
+    },
+    "pageContainer": {
+        "pageName": "Page Name",
+        "pageNamePlaceHolder": "Enter Page name",
+        "clonePage": "Clone Page",
+        "clone": "Clone",
+        "sharePage": "Share Page",
+        "createPage": "Create Page",
+        "userId": "User email",
+        "userIdPlaceHolder": "Enter comma separated emails to share with multiple user"
+    },
+    "login": {
+        "err_msg": {
+            "email_err": "Invalid email",
+            "email_err_required": "Email is required",
+            "pswd_err": "Invalid password",
+            "pswd_err_required": "Password is required",
+            "confirm_pswd_err_required": "Confirm password is required",
+            "login_err": "Invalid email or password",
+            "must_match_pswd_err": "Passwords must match",
+            "min_password_length_error": "Password must be at least 8 characters"
+        },
+        "placeholder": {
+            "email_id": "Email",
+            "pswd": "Password",
+            "your_email": "Business Email"
+        },
+        "labels": {
+            "header_text_first": "NEEV UI",
+            "remember_me": "Remember Me",
+            "sign_in": "Sign in"
+        },
+        "welcome": "Welcome back!",
+        "email": "Email",
+        "email_placeholder": "Email address",
+        "password": "Password",
+        "remember_me": "Remember me",
+        "do_not_have_account": "Don’t have an account?"
+    },
+    "myMenu": {
+        "title": "My Menu",
+        "createCat" : "Create Category",
+        "categoryName" : "Category Name",
+        "categoryNameLabel" : "Enter Menu Category Name",
+        "createMenu": "Create Menu",
+        "menuItemName": "Menu Name",
+        "menuItemNameLabel" : "Enter Name for Menu",
+        "menuItemContent": "Menu Url",
+        "menuItemContentLabel" : "Enter Url for Menu",
+        "menuItemDesc": "Description",
+        "menuItemDescLabel" : "Description for Menu",
+        "addToCategory" : "Add to Category",
+        "addCategory" : "Add Category",
+        "editMenu": "Edit Menu",
+        "err_msg" : {
+            "menuItemName_errRequired": "Menu Name is required",
+            "menuItemContent_errRequired": "Menu Url is required"
+        },
+        "noData": "It seems you don't have any menu",
+        "toEditMenu": "to Edit Menu"
+    },
+    "menu":{
+        "title": "Menu"
+    },
+    "common_ui_message": {
+        "no_data": "No record found!",
+        "network_error": "Network Error",
+        "no_internet_connection": "No internet connection",
+        "min_password_length_error": "Password must be at least 8 characters"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "success": true,
+    "error": null,
+    "payload": {
+        "total_messages": 13,
+        "messages": {
+            "compass": [
+                {
+                    "codeType": "ERROR",
+                    "code": "CMP-0013",
+                    "shortDesc": "Date Range Error",
+                    "longDesc": "The minimum campaign duration is 7 days"
+                },
+                {
+                    "codeType": "WARN",
+                    "code": "CMP-0015",
+                    "shortDesc": "Cannot redirect",
+                    "longDesc": "Cannot redirect to campaign insights as it is not in the ready state."
+                },
+                {
+                    "codeType": "WARN",
+                    "code": "CMP-0016",
+                    "shortDesc": "Cannot Download",
+                    "longDesc": "Cannot Download report as campaign is not in the Ready state"
+                },
+                {
+                    "codeType": "WARN",
+                    "code": "CMP-0017",
+                    "shortDesc": "Cannot Redirect",
+                    "longDesc": "Cannot redirect to the dashboard. The attribution computation is still in process"
+                },
+                {
+                    "codeType": "WARN",
+                    "code": "CMP-0018",
+                    "shortDesc": "No campaigns",
+                    "longDesc": "No campaign available for current account, please create one!"
+                },
+                {
+                    "codeType": "ERROR",
+                    "code": "CMP-0019",
+                    "shortDesc": "Reset password",
+                    "longDesc": "Reset password is not allowed"
+                },
+                {
+                    "codeType": "WARN",
+                    "code": "CMP-0024",
+                    "shortDesc": "Quota exhausted",
+                    "longDesc": "Cannot create new campaign"
+                },
+                {
+                    "codeType": "WARN",
+                    "code": "CMP-0025",
+                    "shortDesc": "Can not add reports",
+                    "longDesc": "You are using a trial version. Please upgrade to add more reports."
+                },
+                {
+                    "codeType": "ERROR",
+                    "code": "CMP-0026",
+                    "shortDesc": "Failed to update terms and conditions",
+                    "longDesc": "Please login again to accept terms and conditions."
+                },
+                {
+                    "codeType": "WARN",
+                    "code": "CMP-0027",
+                    "shortDesc": "Accept terms and conditions",
+                    "longDesc": "Cannot access application until you accept."
+                },
+                {
+                    "codeType": "ERROR",
+                    "code": "CMP-0028",
+                    "shortDesc": "Upload File size error",
+                    "longDesc": "Upload file size can not be larger than 200MB."
+                },
+                {
+                    "codeType": "CONFIRM",
+                    "code": "CMP-0030",
+                    "shortDesc": "Cancel subscription",
+                    "longDesc": "Successfully unsubscribed from plan"
+                },
+                {
+                    "codeType": "ERROR",
+                    "code": "CMP-0031",
+                    "shortDesc": "Cancel subscription",
+                    "longDesc": "Failed to unsubscribe plan"
+                }
+            ]
+        }
+    }
+}

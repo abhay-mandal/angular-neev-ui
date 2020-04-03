@@ -1,0 +1,79 @@
+<div class="row">
+  <div class="col-md-4 card-deck" *ngFor="let card of cards">
+    <!-- <a class="text-dark card bg-white custom-card" [id]="card.cardId" target="/blank" href="javascript:void(0);" (click)="redirectToUrl(card.cardContent)"> -->
+    <div class="text-dark card bg-white custom-card img-fluid">
+      <img *ngIf="card.imageUrl" class="card-img-overlay card-img-custom" src="{{card.imageUrl}}" alt="Card image">
+      <div class="card-img-overlay">
+        <div class="card-header">
+          <h4 class="card-title mt-2">{{card.cardName}}</h4>
+          <div *ngIf="!readOnly" class="position-absolute unpin-btn-wrap">
+            <button class="btn btn-sm unpin-btn" title="{{'cardContainer.settings' | translate}}" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-ellipsis-v text-xs" aria-hidden="true"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="javascript:void(0);" (click)="unPinCard(card.cardId)"><i
+                  class="fa fa-trash text-danger" aria-hidden="true"></i>
+                {{'cardContainer.unpinCard' | translate}}</a>
+              <a class="dropdown-item" href="javascript:void(0);" (click)="updateCardDetail(card)"><i class="fa fa-pencil-square-o text-primary"
+                  aria-hidden="true"></i> {{'cardContainer.updateCard' | translate}}</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            <a class="text-dark" target="/blank" href={{card.cardContent}}>{{card.cardDesc}}</a>
+          </p>
+        </div>
+        <div class="card-footer">
+          <ngb-rating [(rate)]="card.cardRate" #rate (click)="updateRating(card.cardId, rate.rate)">
+            <ng-template let-fill="fill" let-index="index">
+              <span class="star" [class.filled]="fill === 100" [class.bad]="index < 2">&#9733;</span>
+            </ng-template>
+          </ngb-rating>
+          <!-- <a class="text-danger float-right" target="/blank"
+                  href={{card.cardContent}}>{{'cardContainer.explore' | translate}}</a> -->
+        </div>
+      </div>
+    </div>
+    <!-- </a> -->
+  </div>
+
+  <!-- <div class="col-md-4 card-deck">
+    <div class="text-dark card bg-white custom-card img-fluid">
+      <div class="card-header">
+        <h4 class="card-title mt-2">Test card</h4>
+        <div class="position-absolute unpin-btn-wrap">
+          <button class="btn btn-sm unpin-btn" title="{{'cardContainer.settings' | translate}}" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-ellipsis-v text-xs" aria-hidden="true"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="javascript:void(0);" (click)="unPinCard(card.cardId)"><i
+                class="fa fa-trash text-danger" aria-hidden="true"></i>
+              {{'cardContainer.unpinCard' | translate}}</a>
+            <a class="dropdown-item" href="javascript:void(0);" (click)="cloneCard(card)"><i
+                class="fa fa-clone text-primary" aria-hidden="true"></i>
+              {{'cardContainer.cloneCard' | translate}}</a>
+            <a class="dropdown-item" href="javascript:void(0);"><i class="fa fa-pencil-square-o text-primary"
+                aria-hidden="true"></i>
+              {{'cardContainer.renameCard' | translate}}</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-preview">
+          <h5 class="preview-title">Title</h5>
+          <p class="card-text">Lorem Ipsum Test Content</p>
+          <p class="card-text text-right"><a target="/blank" href="#">Read more</a></p>
+        </div>
+      </div>
+      <div class="card-footer card-footer-custom">
+        <ngb-rating [formControl]="rating">
+          <ng-template let-fill="fill" let-index="index">
+            <span class="star" [class.filled]="fill === 100" [class.bad]="index < 2">&#9734;</span>
+          </ng-template>
+        </ngb-rating>
+      </div>
+    </div>
+  </div> -->

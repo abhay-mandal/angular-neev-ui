@@ -1,0 +1,20 @@
+<div class="main-wrapper">
+  <div class="container-fluid p-0">
+    <header class="top-menu-bar">
+      <app-header></app-header>
+    </header>
+    <div class="content-wrapper px-3 pb-3">
+      <div class="row">
+        <div class="py-2 content-bg" [ngClass]="(catalogServ.visible) ? 'col-md-9' : 'col-md-12'">
+          <router-outlet></router-outlet>
+        </div>
+        <div *ngIf="catalogServ.visible" class="col-md-3">
+          <app-catalog></app-catalog>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-wrapper">
+      <app-footer></app-footer>
+    </footer>
+  </div>
+</div>
